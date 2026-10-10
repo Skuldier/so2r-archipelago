@@ -1,0 +1,2094 @@
+{
+  "missions": [
+    {
+      "id": 1,
+      "quest_id": "QUEST_001",
+      "name": "Crafting Mission 1",
+      "category": "ITEM_GET",
+      "start_progress": 600100,
+      "region": "MF_0004",
+      "story_progress_required": 600100,
+      "skill": "CRAFT",
+      "target": {
+        "item_id": 158,
+        "item": "Silver Earring",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 682,
+        "count": 1,
+        "name": "Ring Mail"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 682,
+          "count": 1,
+          "name": "Ring Mail"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "quest_id": "QUEST_002",
+      "name": "Cooking Mission 1",
+      "category": "ITEM_GET",
+      "start_progress": 600100,
+      "region": "MF_0004",
+      "story_progress_required": 600100,
+      "skill": "COOKING",
+      "target": {
+        "item_id": 404,
+        "item": "Fried Egg",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 683,
+        "count": 1,
+        "name": "Silk Robe"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 683,
+          "count": 1,
+          "name": "Silk Robe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "quest_id": "QUEST_003",
+      "name": "Alchemy Mission 1",
+      "category": "ITEM_GET",
+      "start_progress": 600100,
+      "region": "MF_0004",
+      "story_progress_required": 600100,
+      "skill": "ALCHEMY",
+      "target": {
+        "item_id": 421,
+        "item": "Silver",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 419,
+        "count": 5,
+        "name": "Iron ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 419,
+          "count": 5,
+          "name": "Iron"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "quest_id": "QUEST_004",
+      "name": "Fishing Mission 1",
+      "category": "ITEM_GET",
+      "start_progress": 600100,
+      "region": "MF_0004",
+      "story_progress_required": 600100,
+      "skill": "FISHING",
+      "target": {
+        "item_id": 1637,
+        "item": "Krosse Carp",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1700,
+        "count": 3,
+        "name": "Fishy Fragrance ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 10,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1700,
+          "count": 3,
+          "name": "Fishy Fragrance"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "quest_id": "QUEST_005",
+      "name": "Customization Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "CUSTOMIZE",
+      "target": {
+        "item_id": 492,
+        "item": "Flame Sword",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1741,
+        "count": 1,
+        "name": "Formation Manual \"Wealth\""
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1741,
+          "count": 1,
+          "name": "Formation Manual \"Wealth\""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "quest_id": "QUEST_006",
+      "name": "Fishing Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "FISHING",
+      "target": {
+        "item_id": 1667,
+        "item": "Coach Shrimp",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 40,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "quest_id": "QUEST_007",
+      "name": "Crafting Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "CRAFT",
+      "target": {
+        "item_id": 63,
+        "item": "Storm Ring",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 449,
+        "count": 10,
+        "name": "Flare Bomb ×10"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 10,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 10,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 449,
+          "count": 10,
+          "name": "Flare Bomb"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "quest_id": "QUEST_008",
+      "name": "Art Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "ART",
+      "target": {
+        "item_id": 6,
+        "item": "Portrait A",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 40,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "quest_id": "QUEST_009",
+      "name": "Alchemy Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "ALCHEMY",
+      "target": {
+        "item_id": 433,
+        "item": "Crystal",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 40,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "quest_id": "QUEST_010",
+      "name": "Writing Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "WRITING",
+      "target": {
+        "item_id": 174,
+        "item": "Walls of the Soul",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1601,
+        "count": 1,
+        "name": "Formation Manual \"Flee\""
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 10,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1601,
+          "count": 1,
+          "name": "Formation Manual \"Flee\""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "quest_id": "QUEST_011",
+      "name": "Appraising Mission 2",
+      "category": "APPRAISAL",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "APPRAISAL",
+      "target": {
+        "item_id": 888,
+        "item": "?ARMOR",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 30,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 30,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "quest_id": "QUEST_012",
+      "name": "Cooking Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "COOKING",
+      "target": {
+        "item_id": 768,
+        "item": "Rice-Bran Pickles",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 40,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "quest_id": "QUEST_013",
+      "name": "Compounding Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "MIXING",
+      "target": {
+        "item_id": 271,
+        "item": "Smoke Mist",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 221,
+        "count": 5,
+        "name": "Rose Hip ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 30,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 221,
+          "count": 5,
+          "name": "Rose Hip"
+        },
+        {
+          "type": "ITEM",
+          "value": 222,
+          "count": 5,
+          "name": "Artemis Leaf"
+        },
+        {
+          "type": "ITEM",
+          "value": 224,
+          "count": 5,
+          "name": "Lavender"
+        },
+        {
+          "type": "ITEM",
+          "value": 225,
+          "count": 5,
+          "name": "Athelas"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "quest_id": "QUEST_014",
+      "name": "Crafting Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "CRAFT",
+      "target": {
+        "item_id": 120,
+        "item": "Emerald Ring",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1607,
+        "count": 1,
+        "name": "Blue Talisman Kit"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 30,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1607,
+          "count": 1,
+          "name": "Blue Talisman Kit"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "quest_id": "QUEST_015",
+      "name": "Machinist Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "MACHINERY",
+      "target": {
+        "item_id": 460,
+        "item": "Soldering Iron",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 493,
+        "count": 1,
+        "name": "Walloon Sword"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 60,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 493,
+          "count": 1,
+          "name": "Walloon Sword"
+        },
+        {
+          "type": "ITEM",
+          "value": 596,
+          "count": 1,
+          "name": "One-Two Puncher"
+        },
+        {
+          "type": "ITEM",
+          "value": 528,
+          "count": 1,
+          "name": "Maiden's Aria"
+        },
+        {
+          "type": "ITEM",
+          "value": 582,
+          "count": 1,
+          "name": "Wave Clip"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "quest_id": "QUEST_016",
+      "name": "Machinist Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "MACHINERY",
+      "target": {
+        "item_id": 441,
+        "item": "Music Box",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 40,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "quest_id": "QUEST_017",
+      "name": "Blacksmith Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "BLACKSMITH",
+      "target": {
+        "item_id": 702,
+        "item": "Magic Armor",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 423,
+        "count": 2,
+        "name": "Orichalcum ×2"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 423,
+          "count": 2,
+          "name": "Orichalcum"
+        },
+        {
+          "type": "ITEM",
+          "value": 426,
+          "count": 2,
+          "name": "Damascus"
+        },
+        {
+          "type": "ITEM",
+          "value": 422,
+          "count": 2,
+          "name": "Moonstone"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "quest_id": "QUEST_018",
+      "name": "Compounding Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "MIXING",
+      "target": {
+        "item_id": 278,
+        "item": "Medicine Bottle",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1629,
+        "count": 3,
+        "name": "Starry Night Kit ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1629,
+          "count": 3,
+          "name": "Starry Night Kit"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "quest_id": "QUEST_019",
+      "name": "Remaking Mission 2",
+      "category": "FACTOR_MATERIAL",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "REMAKE",
+      "target": {
+        "item_id": 1746,
+        "item": "Factor Energy",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "quest_id": "QUEST_020",
+      "name": "Master Chef Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 3700000,
+      "region": "MF_0030",
+      "story_progress_required": 3700000,
+      "skill": "MASTER_SHEF",
+      "target": {
+        "item_id": 306,
+        "item": "Coconut Milk",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 30,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "quest_id": "QUEST_021",
+      "name": "Fishing Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "FISHING",
+      "target": {
+        "item_id": 1671,
+        "item": "Paladin Seriola",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 40,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "quest_id": "QUEST_022",
+      "name": "Art Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "ART",
+      "target": {
+        "item_id": 40,
+        "item": "Goodie Box",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1627,
+        "count": 1,
+        "name": "Angel Statuette Kit"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1627,
+          "count": 1,
+          "name": "Angel Statuette Kit"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "quest_id": "QUEST_023",
+      "name": "Compounding Mission 4",
+      "category": "ITEM_GET",
+      "start_progress": 3700000,
+      "region": "MF_0030",
+      "story_progress_required": 3700000,
+      "skill": "MIXING",
+      "target": {
+        "item_id": 240,
+        "item": "Potion of Merlin",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 266,
+        "count": 3,
+        "name": "Ointment of Veda ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 266,
+          "count": 3,
+          "name": "Ointment of Veda"
+        },
+        {
+          "type": "ITEM",
+          "value": 243,
+          "count": 3,
+          "name": "Resurrection Mist"
+        },
+        {
+          "type": "ITEM",
+          "value": 275,
+          "count": 3,
+          "name": "Holy Mist"
+        },
+        {
+          "type": "ITEM",
+          "value": 273,
+          "count": 3,
+          "name": "Faerie Mist"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "quest_id": "QUEST_027",
+      "name": "Publication Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "PUBLISHING",
+      "target": {
+        "item_id": 197,
+        "item": "Eyes Only for You",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 60,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "quest_id": "QUEST_028",
+      "name": "Writing Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": "WRITING",
+      "target": {
+        "item_id": 186,
+        "item": "Scroll of Power",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 499,
+        "count": 1,
+        "name": "Searing Sword"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 499,
+          "count": 1,
+          "name": "Searing Sword"
+        },
+        {
+          "type": "ITEM",
+          "value": 545,
+          "count": 1,
+          "name": "Blazing Knuckles"
+        },
+        {
+          "type": "ITEM",
+          "value": 598,
+          "count": 1,
+          "name": "Fire Puncher"
+        },
+        {
+          "type": "ITEM",
+          "value": 584,
+          "count": 1,
+          "name": "White Clip"
+        },
+        {
+          "type": "ITEM",
+          "value": 616,
+          "count": 1,
+          "name": "Flare Whip"
+        },
+        {
+          "type": "ITEM",
+          "value": 647,
+          "count": 1,
+          "name": "Flame Gun"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "quest_id": "QUEST_029",
+      "name": "Blacksmith Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": "BLACKSMITH",
+      "target": {
+        "item_id": 748,
+        "item": "Witch's Boots",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 703,
+        "count": 1,
+        "name": "Sylvan Mail"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 150,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 703,
+          "count": 1,
+          "name": "Sylvan Mail"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "quest_id": "QUEST_030",
+      "name": "Item Mission 1",
+      "category": "ITEM_GET",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": null,
+      "target": {
+        "item_id": 324,
+        "item": "Lezard's Flask",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 161,
+        "count": 1,
+        "name": "Dream Crown"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 161,
+          "count": 1,
+          "name": "Dream Crown"
+        },
+        {
+          "type": "ITEM",
+          "value": 1604,
+          "count": 1,
+          "name": "Berserker Ring Kit"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "quest_id": "QUEST_031",
+      "name": "Replication Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": "DUPLICATE",
+      "target": {
+        "item_id": 194,
+        "item": "Fanfic ;O",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 30,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "quest_id": "QUEST_033",
+      "name": "Alchemy Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 5500000,
+      "region": "MF_0041",
+      "story_progress_required": 5500000,
+      "skill": "ALCHEMY",
+      "target": {
+        "item_id": 434,
+        "item": "Philosopher's Stone",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1614,
+        "count": 1,
+        "name": "Shield of Athena Kit"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1614,
+          "count": 1,
+          "name": "Shield of Athena Kit"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "quest_id": "QUEST_034",
+      "name": "Item Mission 2",
+      "category": "ITEM_GET",
+      "start_progress": 5500000,
+      "region": "MF_0041",
+      "story_progress_required": 5500000,
+      "skill": null,
+      "target": {
+        "item_id": 459,
+        "item": "Magical Rasp",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1615,
+        "count": 1,
+        "name": "Dueling Suit Kit"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 150,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1615,
+          "count": 1,
+          "name": "Dueling Suit Kit"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "quest_id": "QUEST_035",
+      "name": "Machinist Mission 4",
+      "category": "ITEM_GET",
+      "start_progress": 5500000,
+      "region": "MF_0041",
+      "story_progress_required": 5500000,
+      "skill": "MACHINERY",
+      "target": {
+        "item_id": 453,
+        "item": "Megabomb",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 426,
+        "count": 3,
+        "name": "Damascus ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 426,
+          "count": 3,
+          "name": "Damascus"
+        },
+        {
+          "type": "ITEM",
+          "value": 424,
+          "count": 3,
+          "name": "Meteorite"
+        },
+        {
+          "type": "ITEM",
+          "value": 423,
+          "count": 3,
+          "name": "Orichalcum"
+        },
+        {
+          "type": "ITEM",
+          "value": 427,
+          "count": 3,
+          "name": "Rune Metal"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "quest_id": "QUEST_036",
+      "name": "Master Chef Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 5500000,
+      "region": "MF_0041",
+      "story_progress_required": 5500000,
+      "skill": "MASTER_SHEF",
+      "target": {
+        "item_id": 335,
+        "item": "Plain Omelet",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 417,
+        "count": 3,
+        "name": "Nectar ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 417,
+          "count": 3,
+          "name": "Nectar"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "quest_id": "QUEST_037",
+      "name": "Fishing Mission 4",
+      "category": "ITEM_GET",
+      "start_progress": 5500000,
+      "region": "MF_0041",
+      "story_progress_required": 5500000,
+      "skill": "FISHING",
+      "target": {
+        "item_id": 1694,
+        "item": "Color Tuna",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 427,
+        "count": 3,
+        "name": "Rune Metal ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 427,
+          "count": 3,
+          "name": "Rune Metal"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "quest_id": "QUEST_038",
+      "name": "Crafting Mission 4",
+      "category": "ITEM_GET",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "CRAFT",
+      "target": {
+        "item_id": 91,
+        "item": "Ring of Wisdom",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 434,
+        "count": 3,
+        "name": "Philosopher's Stone ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 434,
+          "count": 3,
+          "name": "Philosopher's Stone"
+        },
+        {
+          "type": "ITEM",
+          "value": 422,
+          "count": 3,
+          "name": "Moonstone"
+        },
+        {
+          "type": "ITEM",
+          "value": 436,
+          "count": 3,
+          "name": "Rainbow Diamond"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "quest_id": "QUEST_039",
+      "name": "Blacksmith Mission 4",
+      "category": "ITEM_GET",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "BLACKSMITH",
+      "target": {
+        "item_id": 718,
+        "item": "Hand of Kali",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 424,
+        "count": 3,
+        "name": "Meteorite ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 50,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 424,
+          "count": 3,
+          "name": "Meteorite"
+        },
+        {
+          "type": "ITEM",
+          "value": 423,
+          "count": 3,
+          "name": "Orichalcum"
+        },
+        {
+          "type": "ITEM",
+          "value": 425,
+          "count": 3,
+          "name": "Mithril"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "quest_id": "QUEST_041",
+      "name": "Cooking Mission 3",
+      "category": "ITEM_GET",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "COOKING",
+      "target": {
+        "item_id": 794,
+        "item": "Golden Stew",
+        "count": 1
+      },
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 100,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "quest_id": "QUEST_048",
+      "name": "Customization Mission 1",
+      "category": "LEARNING",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "CUSTOMIZE",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 419,
+        "count": 2,
+        "name": "Iron ×2"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 419,
+          "count": 2,
+          "name": "Iron"
+        },
+        {
+          "type": "ITEM",
+          "value": 420,
+          "count": 2,
+          "name": "Gold"
+        },
+        {
+          "type": "ITEM",
+          "value": 421,
+          "count": 2,
+          "name": "Silver"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "quest_id": "QUEST_049",
+      "name": "Writing Mission 1",
+      "category": "LEARNING",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "WRITING",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 164,
+        "count": 5,
+        "name": "Fountain Pen ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 164,
+          "count": 5,
+          "name": "Fountain Pen"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "quest_id": "QUEST_050",
+      "name": "Art Mission 1",
+      "category": "LEARNING",
+      "start_progress": 1300000,
+      "region": "MF_0008",
+      "story_progress_required": 1300000,
+      "skill": "ART",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1,
+        "count": 5,
+        "name": "Magic Canvas ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 1,
+          "count": 5,
+          "name": "Magic Canvas"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "quest_id": "QUEST_051",
+      "name": "Appraising Mission 1",
+      "category": "LEARNING",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "APPRAISAL",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 54,
+        "count": 5,
+        "name": "Spectacles ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 54,
+          "count": 5,
+          "name": "Spectacles"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "quest_id": "QUEST_052",
+      "name": "Familiar Mission",
+      "category": "LEARNING",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "FAMILIAR",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 418,
+        "count": 5,
+        "name": "Pet Food ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 418,
+          "count": 5,
+          "name": "Pet Food"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "quest_id": "QUEST_053",
+      "name": "Training Mission",
+      "category": "LEARNING",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "TRAINING",
+      "target": null,
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "quest_id": "QUEST_054",
+      "name": "Music Mission",
+      "category": "LEARNING",
+      "start_progress": 1800000,
+      "region": "MF_0015",
+      "story_progress_required": 1800000,
+      "skill": "MUSIC",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 44,
+        "count": 5,
+        "name": "Feather Pen ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 44,
+          "count": 5,
+          "name": "Feather Pen"
+        },
+        {
+          "type": "ITEM",
+          "value": 53,
+          "count": 5,
+          "name": "Conductor Baton"
+        },
+        {
+          "type": "ITEM",
+          "value": 52,
+          "count": 1,
+          "name": "Pipe Organ"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "quest_id": "QUEST_055",
+      "name": "Compounding Mission 1",
+      "category": "LEARNING",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "MIXING",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 220,
+        "count": 2,
+        "name": "Mandrake ×2"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 220,
+          "count": 2,
+          "name": "Mandrake"
+        },
+        {
+          "type": "ITEM",
+          "value": 221,
+          "count": 2,
+          "name": "Rose Hip"
+        },
+        {
+          "type": "ITEM",
+          "value": 222,
+          "count": 2,
+          "name": "Artemis Leaf"
+        },
+        {
+          "type": "ITEM",
+          "value": 223,
+          "count": 2,
+          "name": "Wolfsbane"
+        },
+        {
+          "type": "ITEM",
+          "value": 224,
+          "count": 2,
+          "name": "Lavender"
+        },
+        {
+          "type": "ITEM",
+          "value": 225,
+          "count": 2,
+          "name": "Athelas"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "quest_id": "QUEST_056",
+      "name": "Survival Mission",
+      "category": "LEARNING",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "SURVIVAL",
+      "target": null,
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "quest_id": "QUEST_057",
+      "name": "Scouting Mission",
+      "category": "LEARNING",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "SCOUT",
+      "target": null,
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "quest_id": "QUEST_058",
+      "name": "Machinist Mission 1",
+      "category": "LEARNING",
+      "start_progress": 2000500,
+      "region": "MF_0017",
+      "story_progress_required": 2000500,
+      "skill": "MACHINERY",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 456,
+        "count": 5,
+        "name": "Mechanic's Toolbox ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 456,
+          "count": 5,
+          "name": "Mechanic's Toolbox"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "quest_id": "QUEST_059",
+      "name": "Bodyguard Mission",
+      "category": "LEARNING",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "CUTIN",
+      "target": null,
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 40,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "quest_id": "QUEST_060",
+      "name": "Bunny Call Mission",
+      "category": "LEARNING",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "COMEON_BUNNY",
+      "target": null,
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 60,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 60,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "quest_id": "QUEST_061",
+      "name": "Blacksmith Mission 1",
+      "category": "LEARNING",
+      "start_progress": 2301500,
+      "region": "MF_0020",
+      "story_progress_required": 2301500,
+      "skill": "BLACKSMITH",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 470,
+        "count": 10,
+        "name": "Smith's Hammer ×10"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 470,
+          "count": 10,
+          "name": "Smith's Hammer"
+        },
+        {
+          "type": "ITEM",
+          "value": 746,
+          "count": 1,
+          "name": "Rune Shoes"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "quest_id": "QUEST_062",
+      "name": "Master Chef Mission 1",
+      "category": "LEARNING",
+      "start_progress": 3700000,
+      "region": "MF_0030",
+      "story_progress_required": 3700000,
+      "skill": "MASTER_SHEF",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 279,
+        "count": 3,
+        "name": "Seafood ×3"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 279,
+          "count": 3,
+          "name": "Seafood"
+        },
+        {
+          "type": "ITEM",
+          "value": 280,
+          "count": 3,
+          "name": "Fruit"
+        },
+        {
+          "type": "ITEM",
+          "value": 281,
+          "count": 3,
+          "name": "Grains"
+        },
+        {
+          "type": "ITEM",
+          "value": 282,
+          "count": 3,
+          "name": "Meat"
+        },
+        {
+          "type": "ITEM",
+          "value": 283,
+          "count": 3,
+          "name": "Vegetables"
+        },
+        {
+          "type": "ITEM",
+          "value": 284,
+          "count": 3,
+          "name": "Eggs and Dairy"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "quest_id": "QUEST_063",
+      "name": "Orchestra Mission",
+      "category": "LEARNING",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": "ORCHESTRA",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 53,
+        "count": 5,
+        "name": "Conductor Baton ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 53,
+          "count": 5,
+          "name": "Conductor Baton"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "quest_id": "QUEST_064",
+      "name": "Group Appraising Mission",
+      "category": "LEARNING",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": "APPRAISAL",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 54,
+        "count": 5,
+        "name": "Spectacles ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 54,
+          "count": 5,
+          "name": "Spectacles"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "quest_id": "QUEST_065",
+      "name": "Replication Mission 1",
+      "category": "LEARNING",
+      "start_progress": 4001000,
+      "region": "MF_0033",
+      "story_progress_required": 4001000,
+      "skill": "DUPLICATE",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 440,
+        "count": 5,
+        "name": "Magic Film ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "ITEM",
+          "value": 440,
+          "count": 5,
+          "name": "Magic Film"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "quest_id": "QUEST_066",
+      "name": "Enlightenment Mission",
+      "category": "LEARNING",
+      "start_progress": 5500000,
+      "region": "MF_0041",
+      "story_progress_required": 5500000,
+      "skill": "OPEN_EYES",
+      "target": null,
+      "pool_item": {
+        "kind": "filler",
+        "name": null
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 60,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "quest_id": "QUEST_067",
+      "name": "Remaking Mission 1",
+      "category": "LEARNING",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "REMAKE",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 1590,
+        "count": 5,
+        "name": "Re-Creation Gem ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "SP",
+          "value": 60,
+          "count": 1
+        },
+        {
+          "type": "BP",
+          "value": 60,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 1590,
+          "count": 5,
+          "name": "Re-Creation Gem"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "quest_id": "QUEST_068",
+      "name": "Publication Mission 1",
+      "category": "LEARNING",
+      "start_progress": 5801000,
+      "region": "MF_0043",
+      "story_progress_required": 5801000,
+      "skill": "PUBLISHING",
+      "target": null,
+      "pool_item": {
+        "kind": "item",
+        "game_item_id": 164,
+        "count": 5,
+        "name": "Fountain Pen ×5"
+      },
+      "vanilla_rewards": [
+        {
+          "type": "BP",
+          "value": 20,
+          "count": 1
+        },
+        {
+          "type": "ITEM",
+          "value": 164,
+          "count": 5,
+          "name": "Fountain Pen"
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "id": 24,
+      "quest_id": "QUEST_024",
+      "name": "Machinist Mission EX 2",
+      "scenario_flag": "FLAG_EXIST_PRECIS",
+      "reason": "character-gated EX quest (behind FLAG_EXIST_PRECIS)"
+    },
+    {
+      "id": 25,
+      "quest_id": "QUEST_025",
+      "name": "Machinist Mission EX 1",
+      "scenario_flag": "FLAG_EXIST_OPERA",
+      "reason": "character-gated EX quest (behind FLAG_EXIST_OPERA)"
+    },
+    {
+      "id": 26,
+      "quest_id": "QUEST_026",
+      "name": "Writing Mission EX",
+      "scenario_flag": "FLAG_EXIST_LEON",
+      "reason": "character-gated EX quest (behind FLAG_EXIST_LEON)"
+    },
+    {
+      "id": 32,
+      "quest_id": "QUEST_032",
+      "name": "Publication Mission 3",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 40,
+      "quest_id": "QUEST_040",
+      "name": "Pickpocketing Mission",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 42,
+      "quest_id": "QUEST_042",
+      "name": "Contraband Mission",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 43,
+      "quest_id": "QUEST_043",
+      "name": "Cooking Mission 4",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 44,
+      "quest_id": "QUEST_044",
+      "name": "Art Mission 4",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 45,
+      "quest_id": "QUEST_045",
+      "name": "Fishing Mission 5",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 46,
+      "quest_id": "QUEST_046",
+      "name": "Customization Mission 3",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 47,
+      "quest_id": "QUEST_047",
+      "name": "Blacksmith Mission 5",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    },
+    {
+      "id": 69,
+      "quest_id": "QUEST_069",
+      "name": "Oracle Mission",
+      "scenario_flag": "FLAG_HAVE_ENDING",
+      "reason": "post-game (behind FLAG_HAVE_ENDING)"
+    }
+  ]
+}

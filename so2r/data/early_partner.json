@@ -1,0 +1,25 @@
+{
+  "Version": 1,
+  "Sites": [
+    {
+      "SourcePlayerId": 2,
+      "RegionId": "MF_0003",
+      "StoryProgressRequired": 800000,
+      "VerifiedRoutes": ["claude"],
+      "AllowTemporarySource": true,
+      "Triggers": [
+        {"Route": "claude", "Map": "MF_0003_01A", "Event": "ev_0800000", "MinProgress": 800000, "MaxProgress": 899999}
+      ]
+    },
+    {
+      "SourcePlayerId": 1,
+      "RegionId": "MF_0003",
+      "StoryProgressRequired": 800000,
+      "VerifiedRoutes": [],
+      "AllowTemporarySource": true,
+      "Triggers": [
+        {"Route": "rena", "Map": "MF_0003_01A", "Event": "ev_0800000", "MinProgress": 800000, "MaxProgress": 899999}
+      ]
+    }
+  ]
+}

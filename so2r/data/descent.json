@@ -1,0 +1,670 @@
+{
+  "version": 1,
+  "hub_progress": 5900200,
+  "dungeons": [
+    {
+      "locality": "MF_0002",
+      "id": "sacred_forest",
+      "name": "Sacred Forest",
+      "tier": 1,
+      "planet": "EXPEL",
+      "entrance_row": 1,
+      "entrance_map": "MF_0002_01A",
+      "maps": [
+        "MF_0002_01A",
+        "MF_0002_51A"
+      ],
+      "chests": [
+        100,
+        101
+      ],
+      "zone": null,
+      "verified": false
+    },
+    {
+      "locality": "MF_0005",
+      "id": "salva_mines",
+      "name": "Salva Mines",
+      "tier": 1,
+      "planet": "EXPEL",
+      "entrance_row": 4,
+      "entrance_map": "MF_0005_01A",
+      "maps": [
+        "MF_0005_02A",
+        "MF_0005_01A"
+      ],
+      "chests": [
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ],
+      "zone": {
+        "map": "MF_0005_01A",
+        "event": "ev_0601500"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0008",
+      "id": "krosse_cave",
+      "name": "Krosse Cave",
+      "tier": 1,
+      "planet": "EXPEL",
+      "entrance_row": 9,
+      "entrance_map": "MF_0008_01A",
+      "maps": [
+        "MF_0008_01A"
+      ],
+      "chests": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "zone": null,
+      "verified": true
+    },
+    {
+      "locality": "MF_0011",
+      "id": "forest_of_symbols",
+      "name": "Forest of Symbols",
+      "tier": 1,
+      "planet": "EXPEL",
+      "entrance_row": 14,
+      "entrance_map": "MF_0011_01A",
+      "maps": [
+        "MF_0011_01A"
+      ],
+      "chests": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "zone": {
+        "map": "MF_0011_01A",
+        "event": "ev_1506000_c"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0013",
+      "id": "mountain_palace",
+      "name": "Mountain Palace",
+      "tier": 2,
+      "planet": "EXPEL",
+      "entrance_row": 16,
+      "entrance_map": "MF_0013_02A",
+      "maps": [
+        "MF_0013_02A",
+        "MF_0013_01A"
+      ],
+      "chests": [
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "zone": {
+        "map": "MF_0013_01A",
+        "event": "ev_sub_040300"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0014",
+      "id": "lasgus_mountains",
+      "name": "Lasgus Mountains",
+      "tier": 2,
+      "planet": "EXPEL",
+      "entrance_row": 19,
+      "entrance_map": "MF_0014_01A",
+      "maps": [
+        "MF_0014_01A"
+      ],
+      "chests": [
+        210
+      ],
+      "zone": {
+        "map": "MF_0014_01A",
+        "event": "ev_sub_040700"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0020",
+      "id": "sacred_grounds_of_linga",
+      "name": "Sacred Grounds of Linga",
+      "tier": 2,
+      "planet": "EXPEL",
+      "entrance_row": 26,
+      "entrance_map": "MF_0020_01A",
+      "maps": [
+        "MF_0020_01A"
+      ],
+      "chests": [
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      "zone": {
+        "map": "MF_0020_01A",
+        "event": "ev_sub_111000"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0022",
+      "id": "hoffman_ruins",
+      "name": "Hoffman Ruins",
+      "tier": 3,
+      "planet": "EXPEL",
+      "entrance_row": 29,
+      "entrance_map": "MF_0022_03A",
+      "maps": [
+        "MF_0022_01A",
+        "MF_0022_03A",
+        "MF_0022_02A"
+      ],
+      "chests": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "zone": {
+        "map": "MF_0022_02A",
+        "event": "ev_2401000"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0027",
+      "id": "eluria_tower",
+      "name": "Eluria Tower",
+      "tier": 3,
+      "planet": "EXPEL",
+      "entrance_row": 34,
+      "entrance_map": "MF_0027_21A",
+      "maps": [
+        "MF_0027_01A",
+        "MF_0027_21A",
+        "MF_0027_22A",
+        "MF_0027_23A",
+        "MF_0027_24A",
+        "MF_0027_25A",
+        "MF_0027_31A"
+      ],
+      "chests": [
+        270,
+        271,
+        272,
+        273,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285
+      ],
+      "zone": {
+        "map": "MF_0027_25A",
+        "event": "ev_3304000"
+      },
+      "verified": false
+    },
+    {
+      "locality": "MF_0033",
+      "id": "cave_of_crimson_crystals",
+      "name": "Cave of Crimson Crystals",
+      "tier": 3,
+      "planet": "NEDE",
+      "entrance_row": 43,
+      "entrance_map": "MF_0033_01A",
+      "maps": [
+        "MF_0033_01A"
+      ],
+      "chests": [
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299
+      ],
+      "zone": {
+        "map": "MF_0033_01A",
+        "event": "ev_4000500"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0036",
+      "id": "field_of_wisdom",
+      "name": "Field of Wisdom",
+      "tier": 4,
+      "planet": "NEDE",
+      "entrance_row": 46,
+      "entrance_map": "MF_0036_01A",
+      "maps": [
+        "MF_0036_01A",
+        "MF_0036_02A",
+        "MF_0036_31A"
+      ],
+      "chests": [
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316
+      ],
+      "zone": {
+        "map": "MF_0036_31A",
+        "event": null
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0037",
+      "id": "field_of_might",
+      "name": "Field of Might",
+      "tier": 4,
+      "planet": "NEDE",
+      "entrance_row": 47,
+      "entrance_map": "MF_0037_01A",
+      "maps": [
+        "MF_0037_01A",
+        "MF_0037_21A",
+        "MF_0037_22A",
+        "MF_0037_23A",
+        "MF_0037_02A",
+        "MF_0037_03A",
+        "MF_0037_24A",
+        "MF_0037_25A",
+        "MF_0037_04A",
+        "MF_0037_51A"
+      ],
+      "chests": [
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356
+      ],
+      "zone": {
+        "map": "MF_0037_04A",
+        "event": "ev_4204000"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0038",
+      "id": "field_of_courage",
+      "name": "Field of Courage",
+      "tier": 4,
+      "planet": "NEDE",
+      "entrance_row": 49,
+      "entrance_map": "MF_0038_01A",
+      "maps": [
+        "MF_0038_01A"
+      ],
+      "chests": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "zone": {
+        "map": "MF_0038_01A",
+        "event": "ev_4207000"
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0039",
+      "id": "field_of_love",
+      "name": "Field of Love",
+      "tier": 4,
+      "planet": "NEDE",
+      "entrance_row": 52,
+      "entrance_map": "MF_0039_01A",
+      "maps": [
+        "MF_0039_01A",
+        "MF_0039_31A"
+      ],
+      "chests": [
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376
+      ],
+      "zone": {
+        "map": "MF_0039_31A",
+        "event": null
+      },
+      "verified": true
+    },
+    {
+      "locality": "MF_0042",
+      "id": "minae_cave",
+      "name": "Minae Cave",
+      "tier": 4,
+      "planet": "NEDE",
+      "entrance_row": 55,
+      "entrance_map": "MF_0042_01A",
+      "maps": [
+        "MF_0042_01A"
+      ],
+      "chests": [
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398
+      ],
+      "zone": {
+        "map": "MF_0042_01A",
+        "event": "ev_5500500"
+      },
+      "verified": true
+    }
+  ],
+  "guardians": [
+    {
+      "party_id": 191,
+      "name": "Allen Tucks",
+      "group": 1,
+      "level": 18,
+      "vetted": true
+    },
+    {
+      "party_id": 194,
+      "name": "Snow Ogre",
+      "group": 1,
+      "level": 18,
+      "vetted": true
+    },
+    {
+      "party_id": 195,
+      "name": "Azam Gille",
+      "group": 1,
+      "level": 15,
+      "vetted": true
+    },
+    {
+      "party_id": 196,
+      "name": "Fire Lizard x2",
+      "group": 1,
+      "level": 30,
+      "vetted": true
+    },
+    {
+      "party_id": 197,
+      "name": "Nightmare",
+      "group": 1,
+      "level": 30,
+      "vetted": true
+    },
+    {
+      "party_id": 199,
+      "name": "Zinae",
+      "group": 1,
+      "level": 35,
+      "vetted": true
+    },
+    {
+      "party_id": 209,
+      "name": "Visseya x3",
+      "group": 2,
+      "level": 40,
+      "vetted": true
+    },
+    {
+      "party_id": 210,
+      "name": "Halfynx x2",
+      "group": 2,
+      "level": 40,
+      "vetted": true
+    },
+    {
+      "party_id": 211,
+      "name": "Ghost",
+      "group": 2,
+      "level": 48,
+      "vetted": true
+    },
+    {
+      "party_id": 522,
+      "name": "Arachnovia x2",
+      "group": 2,
+      "level": 55,
+      "vetted": true
+    },
+    {
+      "party_id": 519,
+      "name": "Cynne (Eluria Tower)",
+      "group": 3,
+      "level": 60,
+      "vetted": true
+    },
+    {
+      "party_id": 524,
+      "name": "Guard Hand",
+      "group": 3,
+      "level": 65,
+      "vetted": true
+    },
+    {
+      "party_id": 525,
+      "name": "Guardian (Field of Courage)",
+      "group": 3,
+      "level": 70,
+      "vetted": true
+    },
+    {
+      "party_id": 527,
+      "name": "Guardian (Field of Might)",
+      "group": 3,
+      "level": 70,
+      "vetted": true
+    },
+    {
+      "party_id": 536,
+      "name": "Zadkiel & Camael & Raphael",
+      "group": 3,
+      "level": 72,
+      "vetted": false
+    },
+    {
+      "party_id": 528,
+      "name": "Lavarre",
+      "group": 3,
+      "level": 75,
+      "vetted": true
+    },
+    {
+      "party_id": 531,
+      "name": "Barchian",
+      "group": 3,
+      "level": 80,
+      "vetted": true
+    },
+    {
+      "party_id": 532,
+      "name": "Zaphkiel",
+      "group": 4,
+      "level": null,
+      "vetted": false
+    },
+    {
+      "party_id": 533,
+      "name": "Jophiel",
+      "group": 4,
+      "level": null,
+      "vetted": false
+    },
+    {
+      "party_id": 535,
+      "name": "Metatron",
+      "group": 4,
+      "level": null,
+      "vetted": false
+    },
+    {
+      "party_id": 537,
+      "name": "Haniel & Michael",
+      "group": 4,
+      "level": 95,
+      "vetted": false
+    },
+    {
+      "party_id": 538,
+      "name": "Lucifer",
+      "group": 4,
+      "level": 140,
+      "vetted": false
+    },
+    {
+      "party_id": 539,
+      "name": "Gabriel",
+      "group": "final",
+      "level": 160,
+      "vetted": false
+    }
+  ],
+  "modifiers": [
+    {
+      "key": "empowered_foes",
+      "name": "Empowered Foes",
+      "weight": 3,
+      "kind": "bane",
+      "needs": "scaling"
+    },
+    {
+      "key": "heavy_boots",
+      "name": "Heavy Boots",
+      "weight": 2,
+      "kind": "bane",
+      "needs": null
+    },
+    {
+      "key": "ambush",
+      "name": "Ambush",
+      "weight": 2,
+      "kind": "bane",
+      "needs": "not_might"
+    },
+    {
+      "key": "back_attack",
+      "name": "Back Attack",
+      "weight": 2,
+      "kind": "bane",
+      "needs": null
+    },
+    {
+      "key": "silence",
+      "name": "Silence",
+      "weight": 2,
+      "kind": "bane",
+      "needs": null
+    },
+    {
+      "key": "cursed",
+      "name": "Cursed",
+      "weight": 2,
+      "kind": "risk",
+      "needs": "cursed_loot"
+    },
+    {
+      "key": "treasure",
+      "name": "Treasure",
+      "weight": 3,
+      "kind": "boon",
+      "needs": "loot_tiers_3_chests"
+    },
+    {
+      "key": "bounty",
+      "name": "Bounty",
+      "weight": 2,
+      "kind": "boon",
+      "needs": "monster_drops"
+    },
+    {
+      "key": "blessed",
+      "name": "Blessed",
+      "weight": 2,
+      "kind": "boon",
+      "needs": null
+    }
+  ]
+}

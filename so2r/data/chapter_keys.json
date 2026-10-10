@@ -1,0 +1,114 @@
+[
+  {
+    "item_id": 5750001,
+    "n": 1,
+    "label": "Royal Audience",
+    "name": "Chapter Key: Royal Audience",
+    "events": [
+      "ev_1000000"
+    ],
+    "unlocks_progress": 1001000,
+    "enabled": true,
+    "note": "Krosse Castle audience: CONVERSATION with NPC WARRIOR1a in MF_0007_01A, enabled only at mainScenarioProgress 1000000, advances to 1001000 (docs/PROGRESSION_DESIGN.md, live 2026-09-15).",
+    "confidence": "verified",
+    "source": "logs/ferry-021-*.jsonl"
+  },
+  {
+    "item_id": 5750002,
+    "n": 2,
+    "label": "Lacuer Ferry",
+    "name": "Chapter Key: Lacuer Ferry",
+    "events": [
+      "ev_1600000"
+    ],
+    "unlocks_progress": 1800000,
+    "enabled": true,
+    "note": "Harley ferry: CONVERSATION with NPC WORKER1c in MF_0012_01A, enabled only in window [1600000,1800000], advances to 1800000 and moves the party to Hilton (docs/PROGRESSION_DESIGN.md, live 2026-09-15). FLAG_SHIP_LICENSE (set at 1400500) is not read by the ferry.",
+    "confidence": "verified",
+    "source": "logs/ferry-020-*.jsonl"
+  },
+  {
+    "item_id": 5750003,
+    "n": 3,
+    "label": "Hoffman Passage",
+    "name": "Chapter Key: Hoffman Passage",
+    "events": [
+      "ev_2302500"
+    ],
+    "unlocks_progress": 2400000,
+    "enabled": true,
+    "note": "Hilton sailor: CONVERSATION with NPC_0015_01a_169_WARRIOR1b in MF_0015_01A, window [2302500,2400000), advances to 2400000 and moves the party to Hoffman Coast (MF_0021_01A), where ev_2400000 (ENTER_FIELD, needs 2400000) runs at once to 2400500 and sets FLAG_SETSAIL_CONV/FLAG_HOFFMAN_HEISHI. While the event is locked the sailor gives his ordinary line, whose 'Return to the Hoffman Ruins' choice still ferries the party to Hoffman Coast WITHOUT advancing progress (nothing fires there below 2400000), so the lock is soft-lock-free: return to Hilton and talk again once the key arrives (observed live 2026-09-15, first with the event locked, then unlocked).",
+    "confidence": "verified",
+    "source": "logs/traces-20260915-hoffman (check_gate_trace.py: CONFIRMED)"
+  },
+  {
+    "item_id": 5750004,
+    "n": 4,
+    "label": "Eluria Voyage",
+    "name": "Chapter Key: Eluria Voyage",
+    "events": [
+      "ev_2800500"
+    ],
+    "unlocks_progress": 2900000,
+    "enabled": true,
+    "note": "Hilton: ENTER_FIELD (ev_2800500) at MF_0015_01A, window starting at 2800500, advances to 2900000. The trace shows the story then running unattended through the \"Aboard the Ship\" sequence (MF_0023_51A, ev_2900000/2901000/2902000) to Elurian Coast (MF_0025_01A) at 3000000 and on to Eluria Settlement (MF_0026_01A) at 3100000, all seen in order in the same session. This is an ENTER_FIELD trigger, not a CONVERSATION: refusing it means entering Hilton at 2800500 starts nothing and the town stays usable (shops, inn, ferry); re-entering Hilton after the key arrives starts the voyage. If the party is already inside Hilton when the key arrives they must leave and re-enter, since ENTER_FIELD only evaluates on map entry. The locked behaviour itself is expected, not yet observed live (this session's room only mapped keys 1-3).",
+    "confidence": "verified",
+    "source": "logs/traces-20260916-eluria (check_gate_trace.py: CONFIRMED)"
+  },
+  {
+    "item_id": 5750005,
+    "n": 5,
+    "label": "The Four Fields",
+    "name": "Chapter Key: The Four Fields",
+    "events": [
+      "ev_4100000"
+    ],
+    "unlocks_progress": 4200000,
+    "enabled": true,
+    "note": "City Hall: EVENT_COLLISION (ev_4100000) at MF_0030_26A, window starting at 4100000, advances to 4200000. The scenario trace shows progress moving from 4001000 to 4100000 on leaving the Cave of Crimson Crystals onto the NEDE world map, then to 4200000 at City Hall. The events trace shows ev_4100000 evaluated twice before it ran (IsEnable=True on entering the NEDE world map, IsEnable=True again on entering MF_0030_26A) and StartScenario firing about 4.2 s after the second, once the party walked into the collision trigger; afterward it kept polling IsEnable=False every 10-20 s while the party stayed in City Hall, unlike an ENTER_FIELD gate's single post-fire check. This is an EVENT_COLLISION trigger, not a CONVERSATION or ENTER_FIELD: refusing it should leave the collision trigger inert on contact while City Hall stays otherwise usable, and touching the trigger again after the key arrives should start it immediately, with no map re-entry needed since a collision trigger is evaluated on contact. That locked behaviour is expected, not yet observed (this session's room only mapped keys 1-3).",
+    "confidence": "verified",
+    "source": "logs/traces-20260916-fourfields (check_gate_trace.py: CONFIRMED)"
+  },
+  {
+    "item_id": 5750006,
+    "n": 6,
+    "label": "Phynal Expedition",
+    "name": "Chapter Key: Phynal Expedition",
+    "events": [
+      "ev_4600000"
+    ],
+    "unlocks_progress": 4700000,
+    "enabled": true,
+    "note": "City Hall: EVENT_COLLISION ev_4600000 at MF_0030_26A, window [4200000,4700000), requires all four field completion flags. StartScenario observed 2026-09-19 at 19:43:20 UTC with current progress 4200000 and NextProgress 4700000. The numeric event suffix is not the minimum story progress. Followed by ev_4700000 in L'Aqua and ev_4800000 at Phynal Pier, reaching 4900500. Event/threshold verified; chapter-key refusal and collision retrigger after receipt still require live validation because the observed room did not map this key.",
+    "confidence": "verified",
+    "source": "logs/ending-039-20260919/gate-check.json (check_gate_trace.py: CONFIRMED; events-20260919T194011.jsonl)"
+  },
+  {
+    "item_id": 5750007,
+    "n": 7,
+    "label": "Armlock",
+    "name": "Chapter Key: Armlock",
+    "events": [
+      "ev_5100000"
+    ],
+    "unlocks_progress": 5200000,
+    "enabled": true,
+    "note": "City Hall: ENTER_FIELD ev_5100000 at MF_0030_26A, window [5100000,5200000), observed 2026-09-19 at 19:53:27 UTC with NextProgress 5200000. The subsequent ev_5200000 started in Armlock (MF_0040_01A) at progress 5200000. Event/threshold verified; chapter-key refusal and unlock remain to be tested live. If the key arrives while already inside City Hall, leave and re-enter to exercise the ENTER_FIELD trigger; this retrigger behavior is expected, not observed in the unmapped research room.",
+    "confidence": "verified",
+    "source": "logs/ending-039-20260919/gate-check.json (check_gate_trace.py: CONFIRMED; events-20260919T194011.jsonl)"
+  },
+  {
+    "item_id": 5750008,
+    "n": 8,
+    "label": "Final Voyage",
+    "name": "Chapter Key: Final Voyage",
+    "events": [
+      "ev_5900200"
+    ],
+    "unlocks_progress": 5900500,
+    "enabled": true,
+    "note": "L'Aqua: CONVERSATION ev_5900200 at MF_0046_21A, placement ev_5900200_Nall, window [5900200,5900500), observed 2026-09-19 at 20:18:04 UTC with NextProgress 5900500. Followed by ev_5900500 at the dock, ev_5901000 departing L'Aqua, and ev_6000000 at Phynal Pier. Event/threshold verified; chapter-key refusal and a successful conversation after receipt still require live validation because this key was not mapped in the observed room.",
+    "confidence": "verified",
+    "source": "logs/ending-039-20260919/gate-check.json (check_gate_trace.py: CONFIRMED; events-20260919T194011.jsonl)"
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "Sites": [
+    {
+      "SourcePlayerId": 3,
+      "RegionId": "MF_0008",
+      "StoryProgressRequired": 1300000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0008_01A",
+          "Event": "ev_1300000",
+          "MinProgress": 1300000,
+          "MaxProgress": 1399999
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0008_01A",
+          "Event": "ev_1300000",
+          "MinProgress": 1300000,
+          "MaxProgress": 1399999
+        }
+      ]
+    },
+    {
+      "SourcePlayerId": 4,
+      "RegionId": "MF_0019",
+      "StoryProgressRequired": 2201000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0019_30C",
+          "Event": "ev_2201000",
+          "MinProgress": 2201000,
+          "MaxProgress": 2201499
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0019_30C",
+          "Event": "ev_2201000",
+          "MinProgress": 2201000,
+          "MaxProgress": 2201499
+        }
+      ]
+    },
+    {
+      "SourcePlayerId": 6,
+      "RegionId": "MF_0019",
+      "StoryProgressRequired": 1700000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0019_01A",
+          "Event": "pa_19_cr_001_04",
+          "MinProgress": 1700000,
+          "MaxProgress": 2299999
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0019_01A",
+          "Event": "pa_19_cr_001_04",
+          "MinProgress": 1700000,
+          "MaxProgress": 2299999
+        }
+      ]
+    },
+    {
+      "SourcePlayerId": 7,
+      "RegionId": "MF_0005",
+      "StoryProgressRequired": 1600000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0005_01A",
+          "Event": "ev_sub_030600",
+          "MinProgress": 1600000,
+          "MaxProgress": 2300499
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0005_01A",
+          "Event": "ev_sub_030600",
+          "MinProgress": 1600000,
+          "MaxProgress": 2300499
+        },
+        {
+          "Route": "claude",
+          "Map": "MF_0005_01A",
+          "Event": "ev_sub_030700_a",
+          "MinProgress": 1600000,
+          "MaxProgress": 2300499
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0005_01A",
+          "Event": "ev_sub_030700_a",
+          "MinProgress": 1600000,
+          "MaxProgress": 2300499
+        }
+      ]
+    },
+    {
+      "SourcePlayerId": 11,
+      "RegionId": "MF_0033",
+      "StoryProgressRequired": 4001000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0033_01A",
+          "Event": "ev_4001000",
+          "MinProgress": 4001000,
+          "MaxProgress": 4099999
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0033_01A",
+          "Event": "ev_4001000",
+          "MinProgress": 4001000,
+          "MaxProgress": 4099999
+        }
+      ]
+    },
+    {
+      "SourcePlayerId": 12,
+      "RegionId": "MF_0030",
+      "StoryProgressRequired": 4001000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0030_26A",
+          "Event": "ev_sub_150400",
+          "MinProgress": 4001000,
+          "MaxProgress": 4599999
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0030_26A",
+          "Event": "ev_sub_150400",
+          "MinProgress": 4001000,
+          "MaxProgress": 4599999
+        }
+      ]
+    },
+    {
+      "SourcePlayerId": 13,
+      "RegionId": "MF_0016",
+      "StoryProgressRequired": 2000000,
+      "VerifiedRoutes": [],
+      "Triggers": [
+        {
+          "Route": "claude",
+          "Map": "MF_0016_01A",
+          "Event": "pa_16_cr_001_02",
+          "MinProgress": 2000000,
+          "MaxProgress": 2499999
+        },
+        {
+          "Route": "rena",
+          "Map": "MF_0016_01A",
+          "Event": "pa_16_cr_001_02",
+          "MinProgress": 2000000,
+          "MaxProgress": 2499999
+        }
+      ]
+    }
+  ]
+}

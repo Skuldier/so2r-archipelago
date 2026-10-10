@@ -1,0 +1,283 @@
+[
+  {
+    "item_id": 5001562,
+    "native_id": 1562,
+    "name": "Rena's Hairpin",
+    "events": [
+      "ev_0600200"
+    ],
+    "triggers": [
+      "EVENT_COLLISION"
+    ],
+    "route": null,
+    "unlocks_progress": 600500,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Allen's Mansion, Salva (MF_0004_26A): EVENT_COLLISION that hands over the hairpin (600200 -> 600500). Held, the party stays free to walk Salva and the world map (no story blocker or map-jump restriction covers the mansion exit); the Salva Mines story needs 600500."
+  },
+  {
+    "item_id": 5001565,
+    "native_id": 1565,
+    "name": "Travel Permit",
+    "events": [
+      "ev_1001500"
+    ],
+    "triggers": [
+      "EVENT_COLLISION"
+    ],
+    "route": null,
+    "unlocks_progress": 1100000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Krosse Castle (MF_0007_01A): EVENT_COLLISION after the audience that grants the permit (1001500 -> 1100000). Fast travel is enabled from 900000 and not disabled in the castle then, so a held party can always leave."
+  },
+  {
+    "item_id": 5001563,
+    "native_id": 1563,
+    "name": "Treasure Map",
+    "events": [
+      "ev_1100000"
+    ],
+    "triggers": [
+      "EVENT_COLLISION"
+    ],
+    "route": null,
+    "unlocks_progress": 1200000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Krosse City (MF_0006_01A): Celine's EVENT_COLLISION that produces the map (1100000 -> 1200000); Krosse Cave opens with ev_1200000. Hub town, no blocker or fast-travel disable in the window."
+  },
+  {
+    "item_id": 5000743,
+    "native_id": 743,
+    "name": "Mud Shoes",
+    "events": [
+      "ev_1501500_c",
+      "ev_1501500_r"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 1501700,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Marze (MF_0010_01A): the elder's morning scene, ENTER_FIELD, one variant per route (Claude 1501500 -> 1502000, Rena 1501500 -> 1501700 then ev_1501700_r to 1502000). The Forest of Symbols blocker ev_sub_012000 lifts at 1502000. Walking exits are blocked in this window (ev_block_mars_03) but fast travel out of Marze is not disabled; re-enter Marze after receipt to start the scene."
+  },
+  {
+    "item_id": 5001566,
+    "native_id": 1566,
+    "name": "House Key",
+    "events": [
+      "ev_1506300_r"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": "rena",
+    "unlocks_progress": 1506400,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Forest of Symbols (MF_0011_01A), Rena's route only: ENTER_FIELD cabin scene (1506300 -> 1506400). Claude's route has no House Key scene. Fast travel is not disabled until 1506400; re-enter the forest map after receipt."
+  },
+  {
+    "item_id": 5001570,
+    "native_id": 1570,
+    "name": "Armory Contest Badge",
+    "events": [
+      "ev_1801500_center",
+      "ev_1801500_left",
+      "ev_1801500_right",
+      "ev_1801500_woman"
+    ],
+    "triggers": [
+      "CONVERSATION"
+    ],
+    "route": null,
+    "unlocks_progress": 1802000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Lacuer City: the four sponsor CONVERSATIONs, one of which gives the badge (1801500 -> 1802000). All four are held, so no sponsor accepts until the badge arrives. Fast travel out of Lacuer is not disabled in this window."
+  },
+  {
+    "item_id": 5001574,
+    "native_id": 1574,
+    "name": "ID Card",
+    "events": [
+      "ev_3101000"
+    ],
+    "triggers": [
+      "EVENT_COLLISION"
+    ],
+    "route": null,
+    "unlocks_progress": 3200000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Eluria Settlement armory (MF_0026_21A): EVENT_COLLISION that grants the card (Claude 3101000 -> 3200000, Rena -> 3300000). Eluria Tower opens at 3300000. Fast travel out of Eluria is not disabled in this window."
+  },
+  {
+    "item_id": 5001577,
+    "native_id": 1577,
+    "name": "Rune Code",
+    "events": [
+      "ev_4100000"
+    ],
+    "triggers": [
+      "EVENT_COLLISION"
+    ],
+    "route": null,
+    "unlocks_progress": 4200000,
+    "replaces_chapter_key": 5,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "City Hall (MF_0030_26A): EVENT_COLLISION, the same event as chapter key 5 The Four Fields (4100000 -> 4200000, live-traced). The Field of Love barrier (ev_sub_165200) additionally tests the item itself. Replaces chapter key 5 when both options are on."
+  },
+  {
+    "item_id": 5001578,
+    "native_id": 1578,
+    "name": "Orb of Wisdom",
+    "events": [
+      "ev_4203000"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 4700000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Field of Wisdom core (MF_0036_31A): ENTER_FIELD orb scene, the only setter of FLAG_INTELLIGENCE_FIELD, which the Phynal Expedition event ev_4600000 requires (-> 4700000). Re-enter the core room after receipt."
+  },
+  {
+    "item_id": 5001579,
+    "native_id": 1579,
+    "name": "Orb of Might",
+    "events": [
+      "ev_4206000"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 4700000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Field of Might shrine (MF_0037_04A): ENTER_FIELD orb scene, the only setter of FLAG_FORCE_FIELD (required by ev_4600000). Re-enter the shrine room after receipt."
+  },
+  {
+    "item_id": 5001582,
+    "native_id": 1582,
+    "name": "Idol of the Warrior",
+    "events": [
+      "ev_4206700"
+    ],
+    "triggers": [
+      "CONVERSATION"
+    ],
+    "route": null,
+    "unlocks_progress": 4700000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [
+      525
+    ],
+    "gated_regions": [
+      "MF_0038"
+    ],
+    "note": "Field of Courage statue (MF_0038_01A): CONVERSATION that gives the idol and sets FLAG_FOC_GETITEM, which the Guardian event ev_4207000 (battle 525) reads before it sets FLAG_FOC_PUT_ITEM for the Courage orb scenes. Field of Courage chests are conservatively gated too: which of them sit past the Guardian is not established."
+  },
+  {
+    "item_id": 5001580,
+    "native_id": 1580,
+    "name": "Orb of Courage",
+    "events": [
+      "ev_4207500_r",
+      "ev_4208500"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 4700000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Field of Courage (MF_0038_01A): ENTER_FIELD orb scene per route (Rena ev_4207500_r, Claude ev_4208500), the only setters of FLAG_COURAGE_FIELD (required by ev_4600000). Re-enter the map after receipt."
+  },
+  {
+    "item_id": 5001581,
+    "native_id": 1581,
+    "name": "Orb of Love",
+    "events": [
+      "ev_4211000"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 4700000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Field of Love core (MF_0039_31A): ENTER_FIELD orb scene, the only setter of FLAG_LOVE_FIELD (required by ev_4600000). Re-enter the core room after receipt."
+  },
+  {
+    "item_id": 5001584,
+    "native_id": 1584,
+    "name": "Minae Cave Key Card",
+    "events": [
+      "ev_5400500"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 5500000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Armlock, Mirage's home (MF_0040_23A): ENTER_FIELD card scene (5400500 -> 5500000); the Minae Cave door panel (ev_sub_400000) stays locked until 5500000. Fast travel out of Armlock is not disabled in this window; re-enter the house after receipt."
+  },
+  {
+    "item_id": 5001585,
+    "native_id": 1585,
+    "name": "LEA Metal",
+    "events": [
+      "ev_5501000"
+    ],
+    "triggers": [
+      "ENTER_FIELD"
+    ],
+    "route": null,
+    "unlocks_progress": 5600000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Minae Cave entrance (MF_0042_01A): ENTER_FIELD scene after Barchian that yields the metal (5501000 -> 5600000). Re-enter the entrance map after receipt."
+  },
+  {
+    "item_id": 5001586,
+    "native_id": 1586,
+    "name": "N.P.I.D.",
+    "events": [
+      "ev_5600000"
+    ],
+    "triggers": [
+      "EVENT_COLLISION"
+    ],
+    "route": null,
+    "unlocks_progress": 5700000,
+    "replaces_chapter_key": null,
+    "gated_bosses": [],
+    "gated_regions": [],
+    "note": "Armlock, Mirage's home (MF_0040_23A): EVENT_COLLISION where the metal is handed over and the N.P.I.D. issued (5600000 -> 5700000). The Fun City reception also tests the item natively (free entry)."
+  }
+]

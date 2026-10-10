@@ -1,0 +1,22 @@
+[
+ {"item": "Godslayer", "item_id": 342, "factor": 21, "why": "The great sword that ends gods: a flat 20% attack"},
+ {"item": "Aeterna", "item_id": 507, "factor": 57, "why": "An undying blade that drinks life from what it cuts"},
+ {"item": "Demon Sword Levantine", "item_id": 357, "factor": 83, "why": "Cursed power that grows when the party is cornered"},
+ {"item": "Holy Sword Farewell", "item_id": 362, "factor": 67, "why": "A calm, focused blade for a mind that does not waver"},
+ {"item": "Cat o' Nine Tails", "item_id": 618, "factor": 110, "why": "Nine lashes, and each one finds the weak spot"},
+ {"item": "Silver Moon", "item_id": 573, "factor": 65, "why": "Moonlight that draws magic out of the foe"},
+ {"item": "Book of the Ancients", "item_id": 637, "factor": 25, "why": "Old knowledge sharpens every spell"},
+ {"item": "Mephistofar", "item_id": 537, "factor": 102, "why": "A devil's claw that loves an open back"},
+ {"item": "Kaiser Knuckles", "item_id": 550, "factor": 93, "why": "Every enemy wants the champion"},
+ {"item": "Valkyrie's Garb", "item_id": 326, "factor": 60, "why": "A warrior rises again at the edge of defeat"},
+ {"item": "Seraphic Garb", "item_id": 364, "factor": 63, "why": "Heavenly cloth that wipes the slate clean"},
+ {"item": "Battle Suit", "item_id": 697, "factor": 92, "why": "Armour as hard as adamantine"},
+ {"item": "Reflecting Plate", "item_id": 706, "factor": 132, "why": "A plate made to turn a hit aside"},
+ {"item": "Shield of Algol", "item_id": 722, "factor": 89, "why": "A shield that patches you up when it is hit"},
+ {"item": "Valkyrie's Boots", "item_id": 744, "factor": 73, "why": "Swift boots that rally the party from a crisis"},
+ {"item": "Helmet of Odin", "item_id": 672, "factor": 23, "why": "The all-father's helm: 20% more defence"},
+ {"item": "Ring of Lightspeed", "item_id": 109, "factor": 97, "why": "A ring that shouts the party into battle"},
+ {"item": "tri-Emblem", "item_id": 763, "factor": 74, "why": "Three stars gather around the wearer"},
+ {"item": "Archangel's Bracelet", "item_id": 385, "factor": 126, "why": "An angel's blessing on every battle's reward"},
+ {"item": "Ring of Infinity", "item_id": 98, "factor": 78, "why": "Items without end"}
+]

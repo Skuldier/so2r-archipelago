@@ -1,0 +1,815 @@
+[
+  {
+    "id": 191,
+    "name": "Allen Tucks",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0005",
+    "region_confidence": "verified",
+    "story_progress": 601500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_0601500"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Snow Ogre",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0011",
+    "region_confidence": "likely",
+    "story_progress": 1506000,
+    "condition": "claude_route",
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_1506000_c"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Azam Gille",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0011",
+    "region_confidence": "likely",
+    "story_progress": 1506200,
+    "condition": "rena_route",
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_1506200_r"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Fire Lizard ×2",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0013",
+    "region_confidence": "verified",
+    "story_progress": 2000000,
+    "condition": "opera_recruitment",
+    "scripted": false,
+    "missable": true,
+    "postgame": false,
+    "events": [
+      "ev_sub_100600"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Nightmare",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0013",
+    "region_confidence": "verified",
+    "story_progress": 1600000,
+    "condition": "ashton_recruitment",
+    "scripted": false,
+    "missable": true,
+    "postgame": false,
+    "events": [
+      "ev_sub_040300"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Zinae",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0014",
+    "region_confidence": "verified",
+    "story_progress": 1600000,
+    "condition": "ashton_recruitment",
+    "scripted": false,
+    "missable": true,
+    "postgame": false,
+    "events": [
+      "ev_sub_040700",
+      "ev_sub_042000"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Dias (scripted)",
+    "group": "scripted",
+    "goal": false,
+    "region": "MF_0017",
+    "region_confidence": "verified",
+    "story_progress": 1910000,
+    "condition": null,
+    "scripted": true,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_1910000"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Visseya ×3",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0020",
+    "region_confidence": "likely",
+    "story_progress": 2100500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_sub_111000"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "Halfynx ×2",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0022",
+    "region_confidence": "likely",
+    "story_progress": 2401000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_2401000"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Ghost",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0022",
+    "region_confidence": "verified",
+    "story_progress": 2401500,
+    "condition": "ernest_recruitment",
+    "scripted": false,
+    "missable": true,
+    "postgame": false,
+    "events": [
+      "ev_sub_130100"
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Phantom Knight ×2 & Dark Enchantress",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_301000"
+    ]
+  },
+  {
+    "id": 504,
+    "name": "Hunter Slime ×4 & Blood Gerel",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_302000"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "Dreamcaster ×3",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_303000",
+      "ev_sub_305100"
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Mirre 32",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_304100"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "Thieving Scum LV99 & Thieving Scum ×3 & Dreamcaster",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_306000"
+    ]
+  },
+  {
+    "id": 509,
+    "name": "Mithril Eater",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_307100"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Elysian Slug",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_308100"
+    ]
+  },
+  {
+    "id": 511,
+    "name": "Sorcerer & Dreamcaster ×3",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_313000"
+    ]
+  },
+  {
+    "id": 512,
+    "name": "Geo Guardian",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_310000"
+    ]
+  },
+  {
+    "id": 513,
+    "name": "Dragon Tyrant",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_311000"
+    ]
+  },
+  {
+    "id": 514,
+    "name": "Phoenix",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_312000",
+      "ev_sub_314000"
+    ]
+  },
+  {
+    "id": 515,
+    "name": "Gabriella Celesta",
+    "group": "optional",
+    "goal": false,
+    "region": "MF_0051",
+    "region_confidence": "likely",
+    "story_progress": 6003000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": [
+      "ev_sub_315000"
+    ]
+  },
+  {
+    "id": 516,
+    "name": "Cynne (scripted)",
+    "group": "scripted",
+    "goal": false,
+    "region": "MF_0023",
+    "region_confidence": "likely",
+    "story_progress": 2701000,
+    "condition": null,
+    "scripted": true,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_2701000"
+    ]
+  },
+  {
+    "id": 517,
+    "name": "Cynne (Voyage to Eluria)",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0023",
+    "region_confidence": "verified",
+    "story_progress": 2901000,
+    "condition": null,
+    "scripted": false,
+    "missable": true,
+    "postgame": false,
+    "events": [
+      "ev_2901000"
+    ]
+  },
+  {
+    "id": 519,
+    "name": "Cynne (Eluria Tower)",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0027",
+    "region_confidence": "likely",
+    "story_progress": 3304000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_3304000"
+    ]
+  },
+  {
+    "id": 520,
+    "name": "Metatron (scripted)",
+    "group": "scripted",
+    "goal": false,
+    "region": "MF_0027",
+    "region_confidence": "estimate",
+    "story_progress": 3305000,
+    "condition": null,
+    "scripted": true,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_3305000"
+    ]
+  },
+  {
+    "id": 521,
+    "name": "Psynard",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0031",
+    "region_confidence": "likely",
+    "story_progress": 3800500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_3800500"
+    ]
+  },
+  {
+    "id": 522,
+    "name": "Arachnovia ×2",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0033",
+    "region_confidence": "likely",
+    "story_progress": 4000500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_4000500"
+    ]
+  },
+  {
+    "id": 524,
+    "name": "Guard Hand",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0036",
+    "region_confidence": "likely",
+    "story_progress": 4200000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_4201500"
+    ]
+  },
+  {
+    "id": 525,
+    "name": "Guardian (Field of Courage)",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0038",
+    "region_confidence": "verified",
+    "story_progress": 4200000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_4207000"
+    ]
+  },
+  {
+    "id": 527,
+    "name": "Guardian (Field of Might)",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0037",
+    "region_confidence": "verified",
+    "story_progress": 4200000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_4204000"
+    ]
+  },
+  {
+    "id": 528,
+    "name": "Lavarre",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0039",
+    "region_confidence": "likely",
+    "story_progress": 4200000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_4209500"
+    ]
+  },
+  {
+    "id": 530,
+    "name": "Zaphkiel (scripted)",
+    "group": "scripted",
+    "goal": false,
+    "region": "MF_0048",
+    "region_confidence": "likely",
+    "story_progress": 4904500,
+    "condition": null,
+    "scripted": true,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_4904500"
+    ]
+  },
+  {
+    "id": 531,
+    "name": "Barchian",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0042",
+    "region_confidence": "likely",
+    "story_progress": 5500500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_5500500"
+    ]
+  },
+  {
+    "id": 532,
+    "name": "Zaphkiel",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0043",
+    "region_confidence": "verified",
+    "story_progress": 5701000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_5701000"
+    ]
+  },
+  {
+    "id": 533,
+    "name": "Jophiel",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0043",
+    "region_confidence": "likely",
+    "story_progress": 5702000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_5702000"
+    ]
+  },
+  {
+    "id": 535,
+    "name": "Metatron",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0040",
+    "region_confidence": "verified",
+    "story_progress": 5800000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_5800000"
+    ]
+  },
+  {
+    "id": 536,
+    "name": "Zadkiel & Camael & Raphael",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0048",
+    "region_confidence": "verified",
+    "story_progress": 6000500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_6000500"
+    ]
+  },
+  {
+    "id": 537,
+    "name": "Haniel & Michael",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0048",
+    "region_confidence": "verified",
+    "story_progress": 6001500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_6001500"
+    ]
+  },
+  {
+    "id": 538,
+    "name": "Lucifer",
+    "group": "story",
+    "goal": false,
+    "region": "MF_0048",
+    "region_confidence": "verified",
+    "story_progress": 6002500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_6002500"
+    ]
+  },
+  {
+    "id": 539,
+    "name": "Gabriel",
+    "group": "story",
+    "goal": true,
+    "region": "MF_0048",
+    "region_confidence": "verified",
+    "story_progress": 6003500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": false,
+    "events": [
+      "ev_6003500"
+    ]
+  },
+  {
+    "id": 540,
+    "name": "Gabriel (Limiter Off)",
+    "group": "story",
+    "goal": true,
+    "region": "MF_0048",
+    "region_confidence": "verified",
+    "story_progress": 6000500,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3014,
+    "name": "Ultimate Metatron",
+    "group": "raid",
+    "goal": false,
+    "region": "NEDE",
+    "region_confidence": "verified",
+    "story_progress": 4100000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3015,
+    "name": "Ultimate Jophiel",
+    "group": "raid",
+    "goal": false,
+    "region": "NEDE",
+    "region_confidence": "verified",
+    "story_progress": 4100000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3016,
+    "name": "Ultimate Zaphkiel",
+    "group": "raid",
+    "goal": false,
+    "region": "EXPEL",
+    "region_confidence": "verified",
+    "story_progress": 402000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3017,
+    "name": "Ultimate Zadkiel",
+    "group": "raid",
+    "goal": false,
+    "region": "NEDE",
+    "region_confidence": "verified",
+    "story_progress": 4100000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3018,
+    "name": "Ultimate Camael",
+    "group": "raid",
+    "goal": false,
+    "region": "EXPEL",
+    "region_confidence": "verified",
+    "story_progress": 402000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3019,
+    "name": "Ultimate Raphael",
+    "group": "raid",
+    "goal": false,
+    "region": "EXPEL",
+    "region_confidence": "verified",
+    "story_progress": 402000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3020,
+    "name": "Ultimate Haniel",
+    "group": "raid",
+    "goal": false,
+    "region": "NEDE",
+    "region_confidence": "verified",
+    "story_progress": 4100000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3021,
+    "name": "Ultimate Michael",
+    "group": "raid",
+    "goal": false,
+    "region": "EXPEL",
+    "region_confidence": "verified",
+    "story_progress": 402000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3022,
+    "name": "Ultimate Lucifer",
+    "group": "raid",
+    "goal": false,
+    "region": "NEDE",
+    "region_confidence": "verified",
+    "story_progress": 4100000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  },
+  {
+    "id": 3023,
+    "name": "Ultimate Gabriel",
+    "group": "raid",
+    "goal": false,
+    "region": "EXPEL",
+    "region_confidence": "verified",
+    "story_progress": 402000,
+    "condition": null,
+    "scripted": false,
+    "missable": false,
+    "postgame": true,
+    "events": []
+  }
+]

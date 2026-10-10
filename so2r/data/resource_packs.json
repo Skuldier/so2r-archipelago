@@ -1,0 +1,491 @@
+[
+  {
+    "item_id": 5900001,
+    "n": 1,
+    "name": "Small Restorative Pack",
+    "pack": "Restorative",
+    "size": "small",
+    "classification": "filler",
+    "weight": 3,
+    "contents": [
+      {
+        "item_id": 757,
+        "name": "Blueberries",
+        "count": 3
+      },
+      {
+        "item_id": 756,
+        "name": "Blackberries",
+        "count": 3
+      },
+      {
+        "item_id": 277,
+        "name": "Resurrection Elixir",
+        "count": 1
+      },
+      {
+        "item_id": 278,
+        "name": "Medicine Bottle",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "item_id": 5900002,
+    "n": 2,
+    "name": "Large Restorative Pack",
+    "pack": "Restorative",
+    "size": "large",
+    "classification": "useful",
+    "weight": 3,
+    "contents": [
+      {
+        "item_id": 757,
+        "name": "Blueberries",
+        "count": 5
+      },
+      {
+        "item_id": 756,
+        "name": "Blackberries",
+        "count": 5
+      },
+      {
+        "item_id": 257,
+        "name": "Mixed Syrup",
+        "count": 2
+      },
+      {
+        "item_id": 254,
+        "name": "Fruit Syrup",
+        "count": 2
+      },
+      {
+        "item_id": 255,
+        "name": "Refreshing Syrup",
+        "count": 1
+      },
+      {
+        "item_id": 243,
+        "name": "Resurrection Mist",
+        "count": 1
+      },
+      {
+        "item_id": 260,
+        "name": "Wonder Drug",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "item_id": 5900003,
+    "n": 3,
+    "name": "Small Cooking Pack",
+    "pack": "Cooking",
+    "size": "small",
+    "classification": "filler",
+    "weight": 2,
+    "contents": [
+      {
+        "item_id": 281,
+        "name": "Grains",
+        "count": 2
+      },
+      {
+        "item_id": 280,
+        "name": "Fruit",
+        "count": 2
+      },
+      {
+        "item_id": 283,
+        "name": "Vegetables",
+        "count": 2
+      },
+      {
+        "item_id": 284,
+        "name": "Eggs and Dairy",
+        "count": 2
+      },
+      {
+        "item_id": 279,
+        "name": "Seafood",
+        "count": 2
+      },
+      {
+        "item_id": 282,
+        "name": "Meat",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 5900004,
+    "n": 4,
+    "name": "Large Cooking Pack",
+    "pack": "Cooking",
+    "size": "large",
+    "classification": "useful",
+    "weight": 2,
+    "contents": [
+      {
+        "item_id": 281,
+        "name": "Grains",
+        "count": 5
+      },
+      {
+        "item_id": 280,
+        "name": "Fruit",
+        "count": 5
+      },
+      {
+        "item_id": 283,
+        "name": "Vegetables",
+        "count": 5
+      },
+      {
+        "item_id": 284,
+        "name": "Eggs and Dairy",
+        "count": 5
+      },
+      {
+        "item_id": 279,
+        "name": "Seafood",
+        "count": 5
+      },
+      {
+        "item_id": 282,
+        "name": "Meat",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "item_id": 5900005,
+    "n": 5,
+    "name": "Small Compounding Pack",
+    "pack": "Compounding",
+    "size": "small",
+    "classification": "filler",
+    "weight": 2,
+    "contents": [
+      {
+        "item_id": 220,
+        "name": "Mandrake",
+        "count": 2
+      },
+      {
+        "item_id": 221,
+        "name": "Rose Hip",
+        "count": 2
+      },
+      {
+        "item_id": 222,
+        "name": "Artemis Leaf",
+        "count": 2
+      },
+      {
+        "item_id": 223,
+        "name": "Wolfsbane",
+        "count": 2
+      },
+      {
+        "item_id": 224,
+        "name": "Lavender",
+        "count": 2
+      },
+      {
+        "item_id": 225,
+        "name": "Athelas",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 5900006,
+    "n": 6,
+    "name": "Large Compounding Pack",
+    "pack": "Compounding",
+    "size": "large",
+    "classification": "useful",
+    "weight": 2,
+    "contents": [
+      {
+        "item_id": 220,
+        "name": "Mandrake",
+        "count": 5
+      },
+      {
+        "item_id": 221,
+        "name": "Rose Hip",
+        "count": 5
+      },
+      {
+        "item_id": 222,
+        "name": "Artemis Leaf",
+        "count": 5
+      },
+      {
+        "item_id": 223,
+        "name": "Wolfsbane",
+        "count": 5
+      },
+      {
+        "item_id": 224,
+        "name": "Lavender",
+        "count": 5
+      },
+      {
+        "item_id": 225,
+        "name": "Athelas",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "item_id": 5900007,
+    "n": 7,
+    "name": "Small Smithing Pack",
+    "pack": "Smithing",
+    "size": "small",
+    "classification": "filler",
+    "weight": 2,
+    "contents": [
+      {
+        "item_id": 419,
+        "name": "Iron",
+        "count": 2
+      },
+      {
+        "item_id": 421,
+        "name": "Silver",
+        "count": 2
+      },
+      {
+        "item_id": 420,
+        "name": "Gold",
+        "count": 2
+      },
+      {
+        "item_id": 433,
+        "name": "Crystal",
+        "count": 2
+      },
+      {
+        "item_id": 429,
+        "name": "Green Beryl",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 5900008,
+    "n": 8,
+    "name": "Large Smithing Pack",
+    "pack": "Smithing",
+    "size": "large",
+    "classification": "useful",
+    "weight": 2,
+    "contents": [
+      {
+        "item_id": 419,
+        "name": "Iron",
+        "count": 5
+      },
+      {
+        "item_id": 421,
+        "name": "Silver",
+        "count": 5
+      },
+      {
+        "item_id": 420,
+        "name": "Gold",
+        "count": 5
+      },
+      {
+        "item_id": 433,
+        "name": "Crystal",
+        "count": 5
+      },
+      {
+        "item_id": 429,
+        "name": "Green Beryl",
+        "count": 5
+      },
+      {
+        "item_id": 422,
+        "name": "Moonstone",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 5900009,
+    "n": 9,
+    "name": "Small Gemstone Pack",
+    "pack": "Gemstone",
+    "size": "small",
+    "classification": "filler",
+    "weight": 1,
+    "contents": [
+      {
+        "item_id": 431,
+        "name": "Ruby",
+        "count": 1
+      },
+      {
+        "item_id": 430,
+        "name": "Sapphire",
+        "count": 1
+      },
+      {
+        "item_id": 435,
+        "name": "Diamond",
+        "count": 1
+      },
+      {
+        "item_id": 426,
+        "name": "Damascus",
+        "count": 1
+      },
+      {
+        "item_id": 423,
+        "name": "Orichalcum",
+        "count": 1
+      },
+      {
+        "item_id": 432,
+        "name": "Star Ruby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "item_id": 5900010,
+    "n": 10,
+    "name": "Large Gemstone Pack",
+    "pack": "Gemstone",
+    "size": "large",
+    "classification": "useful",
+    "weight": 1,
+    "contents": [
+      {
+        "item_id": 431,
+        "name": "Ruby",
+        "count": 3
+      },
+      {
+        "item_id": 430,
+        "name": "Sapphire",
+        "count": 3
+      },
+      {
+        "item_id": 435,
+        "name": "Diamond",
+        "count": 3
+      },
+      {
+        "item_id": 426,
+        "name": "Damascus",
+        "count": 3
+      },
+      {
+        "item_id": 423,
+        "name": "Orichalcum",
+        "count": 3
+      },
+      {
+        "item_id": 432,
+        "name": "Star Ruby",
+        "count": 3
+      },
+      {
+        "item_id": 436,
+        "name": "Rainbow Diamond",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "item_id": 5900011,
+    "n": 11,
+    "name": "Small Art Pack",
+    "pack": "Art",
+    "size": "small",
+    "classification": "filler",
+    "weight": 1,
+    "contents": [
+      {
+        "item_id": 1,
+        "name": "Magic Canvas",
+        "count": 3
+      },
+      {
+        "item_id": 43,
+        "name": "Magic Clay",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "item_id": 5900012,
+    "n": 12,
+    "name": "Large Art Pack",
+    "pack": "Art",
+    "size": "large",
+    "classification": "useful",
+    "weight": 1,
+    "contents": [
+      {
+        "item_id": 1,
+        "name": "Magic Canvas",
+        "count": 8
+      },
+      {
+        "item_id": 43,
+        "name": "Magic Clay",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "item_id": 5900013,
+    "n": 13,
+    "name": "Small Tool Pack",
+    "pack": "Tool",
+    "size": "small",
+    "classification": "filler",
+    "weight": 1,
+    "contents": [
+      {
+        "item_id": 456,
+        "name": "Mechanic's Toolbox",
+        "count": 2
+      },
+      {
+        "item_id": 164,
+        "name": "Fountain Pen",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "item_id": 5900014,
+    "n": 14,
+    "name": "Large Tool Pack",
+    "pack": "Tool",
+    "size": "large",
+    "classification": "useful",
+    "weight": 1,
+    "contents": [
+      {
+        "item_id": 456,
+        "name": "Mechanic's Toolbox",
+        "count": 5
+      },
+      {
+        "item_id": 164,
+        "name": "Fountain Pen",
+        "count": 5
+      }
+    ]
+  }
+]

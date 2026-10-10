@@ -1,0 +1,929 @@
+[
+ {
+  "id": 1,
+  "key": "FACTOR_001",
+  "name": "ATK UP 5%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 2,
+  "key": "FACTOR_002",
+  "name": "HIT UP 5%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 3,
+  "key": "FACTOR_003",
+  "name": "DEF UP 5%",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 4,
+  "key": "FACTOR_004",
+  "name": "AVD UP 5%",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 5,
+  "key": "FACTOR_005",
+  "name": "INT UP 5%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 6,
+  "key": "FACTOR_006",
+  "name": "CRT UP 5%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 7,
+  "key": "FACTOR_007",
+  "name": "HP UP 5%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 8,
+  "key": "FACTOR_008",
+  "name": "MP UP 5%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 9,
+  "key": "FACTOR_009",
+  "name": "ATK UP 10%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 10,
+  "key": "FACTOR_010",
+  "name": "HIT UP 10%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 11,
+  "key": "FACTOR_011",
+  "name": "DEF UP 10%",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 12,
+  "key": "FACTOR_012",
+  "name": "AVD UP 10%",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 13,
+  "key": "FACTOR_013",
+  "name": "INT UP 10%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 14,
+  "key": "FACTOR_014",
+  "name": "CRT UP 10%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 15,
+  "key": "FACTOR_015",
+  "name": "HP UP 10%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 16,
+  "key": "FACTOR_016",
+  "name": "MP UP 10%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 17,
+  "key": "FACTOR_017",
+  "name": "GUTS UP +10",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 18,
+  "key": "FACTOR_018",
+  "name": "STM UP +10",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 19,
+  "key": "FACTOR_019",
+  "name": "GUTS UP +20",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 20,
+  "key": "FACTOR_020",
+  "name": "STM UP +20",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 21,
+  "key": "FACTOR_021",
+  "name": "ATK UP 20%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 4
+ },
+ {
+  "id": 22,
+  "key": "FACTOR_022",
+  "name": "HIT UP 20%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 23,
+  "key": "FACTOR_023",
+  "name": "DEF UP 20%",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 24,
+  "key": "FACTOR_024",
+  "name": "AVD UP 20%",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 25,
+  "key": "FACTOR_025",
+  "name": "INT UP 20%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 4
+ },
+ {
+  "id": 26,
+  "key": "FACTOR_026",
+  "name": "HP UP 20%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 27,
+  "key": "FACTOR_027",
+  "name": "MP UP 20%",
+  "category": "STATUS_UP",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 38,
+  "key": "FACTOR_038",
+  "name": "Add Earth",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 39,
+  "key": "FACTOR_039",
+  "name": "Add Water",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 40,
+  "key": "FACTOR_040",
+  "name": "Add Fire",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 41,
+  "key": "FACTOR_041",
+  "name": "Add Wind",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 42,
+  "key": "FACTOR_042",
+  "name": "Add Light",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 43,
+  "key": "FACTOR_043",
+  "name": "Add Dark",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 52,
+  "key": "FACTOR_052",
+  "name": "Scum Slayer",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 53,
+  "key": "FACTOR_053",
+  "name": "Fishing Slayer",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 54,
+  "key": "FACTOR_054",
+  "name": "Poison",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 55,
+  "key": "FACTOR_055",
+  "name": "Paralysis",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 56,
+  "key": "FACTOR_056",
+  "name": "Instant Death",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 57,
+  "key": "FACTOR_057",
+  "name": "HP Drain",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 4
+ },
+ {
+  "id": 59,
+  "key": "FACTOR_059",
+  "name": "Break Up",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 60,
+  "key": "FACTOR_060",
+  "name": "Back from the Brink",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 61,
+  "key": "FACTOR_061",
+  "name": "Resolute Heart",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 62,
+  "key": "FACTOR_062",
+  "name": "Metabolism",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 63,
+  "key": "FACTOR_063",
+  "name": "Full Reset",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 64,
+  "key": "FACTOR_064",
+  "name": "Coercion",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 1
+ },
+ {
+  "id": 65,
+  "key": "FACTOR_065",
+  "name": "MP Drain",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 4
+ },
+ {
+  "id": 66,
+  "key": "FACTOR_066",
+  "name": "Fury",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 67,
+  "key": "FACTOR_067",
+  "name": "Mental Focus",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 68,
+  "key": "FACTOR_068",
+  "name": "Lucky Guard",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 69,
+  "key": "FACTOR_069",
+  "name": "CRT Heal",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 70,
+  "key": "FACTOR_070",
+  "name": "CRT Energy",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 71,
+  "key": "FACTOR_071",
+  "name": "CRT Super Boost",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 72,
+  "key": "FACTOR_072",
+  "name": "Rally",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 73,
+  "key": "FACTOR_073",
+  "name": "Super Rally",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 74,
+  "key": "FACTOR_074",
+  "name": "Gathering Stars",
+  "category": "SPECIAL",
+  "mask": 7,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 75,
+  "key": "FACTOR_075",
+  "name": "Economizer",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 77,
+  "key": "FACTOR_077",
+  "name": "Steal",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 78,
+  "key": "FACTOR_078",
+  "name": "Item Master",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 4
+ },
+ {
+  "id": 79,
+  "key": "FACTOR_079",
+  "name": "Morale Booster",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 80,
+  "key": "FACTOR_080",
+  "name": "Revenge",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 82,
+  "key": "FACTOR_082",
+  "name": "Reckless Magic",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 83,
+  "key": "FACTOR_083",
+  "name": "Fight or Flight",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 4
+ },
+ {
+  "id": 84,
+  "key": "FACTOR_084",
+  "name": "Symbology Field",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 85,
+  "key": "FACTOR_085",
+  "name": "Ultra Symbology Field",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 86,
+  "key": "FACTOR_086",
+  "name": "Lone Wolf",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 87,
+  "key": "FACTOR_087",
+  "name": "Factor Activator",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 88,
+  "key": "FACTOR_088",
+  "name": "Quick Fix",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 89,
+  "key": "FACTOR_089",
+  "name": "Emergency Measures",
+  "category": "STATE_CHANGE",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 90,
+  "key": "FACTOR_090",
+  "name": "Back Guard",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 91,
+  "key": "FACTOR_091",
+  "name": "Cast-iron",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 92,
+  "key": "FACTOR_092",
+  "name": "Adamantine",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 93,
+  "key": "FACTOR_093",
+  "name": "All for One",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 94,
+  "key": "FACTOR_094",
+  "name": "Repose",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 95,
+  "key": "FACTOR_095",
+  "name": "Meditation",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 96,
+  "key": "FACTOR_096",
+  "name": "Hurricane Strike",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 97,
+  "key": "FACTOR_097",
+  "name": "War Cry",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 99,
+  "key": "FACTOR_099",
+  "name": "Cancel Boost",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 100,
+  "key": "FACTOR_100",
+  "name": "Red Dragon",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 101,
+  "key": "FACTOR_101",
+  "name": "Blue Dragon",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 102,
+  "key": "FACTOR_102",
+  "name": "Backstab",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 103,
+  "key": "FACTOR_103",
+  "name": "Narrow Escape",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 105,
+  "key": "FACTOR_105",
+  "name": "Birds of a Feather",
+  "category": "SPECIAL",
+  "mask": 7,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 106,
+  "key": "FACTOR_106",
+  "name": "Steel Will",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 107,
+  "key": "FACTOR_107",
+  "name": "Adversity",
+  "category": "SPECIAL",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 108,
+  "key": "FACTOR_108",
+  "name": "Bomber",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 1
+ },
+ {
+  "id": 110,
+  "key": "FACTOR_110",
+  "name": "CRT UP 20%",
+  "category": "STATUS_UP",
+  "mask": 1,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 111,
+  "key": "FACTOR_111",
+  "name": "GUTS UP +30",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 112,
+  "key": "FACTOR_112",
+  "name": "STM UP +30",
+  "category": "STATUS_UP",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 113,
+  "key": "FACTOR_113",
+  "name": "Leader Slayer",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 115,
+  "key": "FACTOR_115",
+  "name": "Spheres Up",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 116,
+  "key": "FACTOR_116",
+  "name": "Uptrend",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 120,
+  "key": "FACTOR_120",
+  "name": "Silence",
+  "category": "STATE_CHANGE",
+  "mask": 1,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 121,
+  "key": "FACTOR_121",
+  "name": "Righteous Fury",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 122,
+  "key": "FACTOR_122",
+  "name": "Relentless",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 1
+ },
+ {
+  "id": 123,
+  "key": "FACTOR_123",
+  "name": "Press the Advantage",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 2
+ },
+ {
+  "id": 126,
+  "key": "FACTOR_126",
+  "name": "Full Bonus",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 127,
+  "key": "FACTOR_127",
+  "name": "High-grade",
+  "category": "SPECIAL",
+  "mask": 7,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 128,
+  "key": "FACTOR_128",
+  "name": "Masterwork",
+  "category": "SPECIAL",
+  "mask": 7,
+  "rarity": "R",
+  "weight": 2
+ },
+ {
+  "id": 129,
+  "key": "FACTOR_129",
+  "name": "Temporary Measures",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 3
+ },
+ {
+  "id": 130,
+  "key": "FACTOR_130",
+  "name": "Loving Care",
+  "category": "SPECIAL",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 131,
+  "key": "FACTOR_131",
+  "name": "Fast Reflexes",
+  "category": "STATE_CHANGE",
+  "mask": 4,
+  "rarity": "N",
+  "weight": 4
+ },
+ {
+  "id": 132,
+  "key": "FACTOR_132",
+  "name": "Defensive Stance",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "R",
+  "weight": 3
+ },
+ {
+  "id": 133,
+  "key": "FACTOR_133",
+  "name": "Ukemi",
+  "category": "SPECIAL",
+  "mask": 2,
+  "rarity": "N",
+  "weight": 3
+ }
+]

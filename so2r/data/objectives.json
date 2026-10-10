@@ -1,0 +1,1934 @@
+{
+ "version": 2,
+ "location_base": 5840000,
+ "name_prefix": "Objective: ",
+ "tiers": {
+  "1": "Easy",
+  "2": "Medium",
+  "3": "Hard"
+ },
+ "objectives": [
+  {
+   "id": 1,
+   "name": "Fight 25 battles",
+   "text": "Fight 25 battles",
+   "tier": 1,
+   "family": "battle",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_BATTLE",
+    "mission": 140,
+    "threshold": 25
+   },
+   "exclusive": [
+    2
+   ],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 2,
+   "name": "Defeat 100 enemies",
+   "text": "Defeat 100 enemies",
+   "tier": 1,
+   "family": "battle",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_DEFEAT_ENEMY",
+    "mission": 145,
+    "threshold": 100
+   },
+   "exclusive": [
+    1
+   ],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 3,
+   "name": "Open 40 chests",
+   "text": "Open 40 chests",
+   "tier": 1,
+   "family": "chests",
+   "kind": "locations_done",
+   "params": {
+    "type": "CHEST_CHECKS",
+    "band": [
+     5500000,
+     5599999
+    ],
+    "need": 40
+   },
+   "exclusive": [
+    10,
+    19
+   ],
+   "requires": {
+    "logic": "chests",
+    "n": 40
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 4,
+   "name": "Break enemy shields 30 times",
+   "text": "Break enemy shields 30 times",
+   "tier": 1,
+   "family": "shields",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_BREAK",
+    "mission": 156,
+    "threshold": 30
+   },
+   "exclusive": [
+    14
+   ],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 5,
+   "name": "Defeat 5 enemy leaders",
+   "text": "Defeat 5 enemy leaders",
+   "tier": 1,
+   "family": "leaders",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_DEFEAT_LEADER_ENEMY",
+    "mission": 132,
+    "threshold": 5
+   },
+   "exclusive": [
+    13
+   ],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 6,
+   "name": "Defeat 4 boss spots",
+   "text": "Defeat 4 boss spots",
+   "tier": 1,
+   "family": "spots",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS_SPOTS",
+    "need": 4
+   },
+   "exclusive": [
+    11,
+    18
+   ],
+   "requires": {
+    "logic": "spots",
+    "n": 4
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 7,
+   "name": "Hold 4 area keys",
+   "text": "Hold 4 area keys",
+   "tier": 1,
+   "family": "keys",
+   "kind": "items_held",
+   "params": {
+    "type": "AREA_KEYS",
+    "need": 4
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "keys",
+    "n": 4
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "keys"
+  },
+  {
+   "id": 8,
+   "name": "Visit 5 towns",
+   "text": "Visit 5 towns",
+   "tier": 1,
+   "family": "towns",
+   "kind": "visited",
+   "params": {
+    "type": "TOWNS"
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "towns",
+    "n": 5
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 9,
+   "name": "Inflict status ailments 5 times",
+   "text": "Inflict status ailments 5 times",
+   "tier": 1,
+   "family": "status",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_DEBUFF",
+    "mission": 159,
+    "threshold": 5
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 10,
+   "name": "Open 90 chests",
+   "text": "Open 90 chests",
+   "tier": 2,
+   "family": "chests",
+   "kind": "locations_done",
+   "params": {
+    "type": "CHEST_CHECKS",
+    "band": [
+     5500000,
+     5599999
+    ],
+    "need": 90
+   },
+   "exclusive": [
+    3,
+    19
+   ],
+   "requires": {
+    "logic": "chests",
+    "n": 90
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 11,
+   "name": "Defeat 9 boss spots",
+   "text": "Defeat 9 boss spots",
+   "tier": 2,
+   "family": "spots",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS_SPOTS",
+    "need": 9
+   },
+   "exclusive": [
+    6,
+    18
+   ],
+   "requires": {
+    "logic": "spots",
+    "n": 9
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 12,
+   "name": "Stand in all four Fields",
+   "text": "Stand in all four Fields",
+   "tier": 2,
+   "family": "fields",
+   "kind": "visited",
+   "params": {
+    "type": "FIELDS"
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "fields",
+    "n": 4,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 13,
+   "name": "Defeat 15 enemy leaders",
+   "text": "Defeat 15 enemy leaders",
+   "tier": 2,
+   "family": "leaders",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_DEFEAT_LEADER_ENEMY",
+    "mission": 132,
+    "threshold": 15
+   },
+   "exclusive": [
+    5
+   ],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 14,
+   "name": "Break the shields of 4 enemies at once",
+   "text": "Break the shields of 4 enemies at once",
+   "tier": 2,
+   "family": "shields",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_SAMETIME_BREAK",
+    "mission": 171,
+    "threshold": 4
+   },
+   "exclusive": [
+    4
+   ],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 15,
+   "name": "Item Encyclopedia 12%",
+   "text": "Item Encyclopedia 12%",
+   "tier": 2,
+   "family": "book",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_ITEM_BOOK",
+    "mission": 210,
+    "threshold": 12,
+    "percent": true
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 16,
+   "name": "Enemy Encyclopedia 18%",
+   "text": "Enemy Encyclopedia 18%",
+   "tier": 2,
+   "family": "book",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_ENEMY_BOOK",
+    "mission": 213,
+    "threshold": 18,
+    "percent": true
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 17,
+   "name": "Fully clear the Cave of Crimson Crystals",
+   "text": "Fully clear the Cave of Crimson Crystals",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    47
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0033",
+    "boss": 522,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0033"
+  },
+  {
+   "id": 18,
+   "name": "Defeat 15 boss spots",
+   "text": "Defeat 15 boss spots",
+   "tier": 3,
+   "family": "spots",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS_SPOTS",
+    "need": 15
+   },
+   "exclusive": [
+    6,
+    11
+   ],
+   "requires": {
+    "logic": "spots",
+    "n": 15
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 19,
+   "name": "Open 110 chests",
+   "text": "Open 110 chests",
+   "tier": 3,
+   "family": "chests",
+   "kind": "locations_done",
+   "params": {
+    "type": "CHEST_CHECKS",
+    "band": [
+     5500000,
+     5599999
+    ],
+    "need": 110
+   },
+   "exclusive": [
+    3,
+    10
+   ],
+   "requires": {
+    "logic": "chests",
+    "n": 110
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 20,
+   "name": "Defeat a Wise Man (Jophiel or Metatron)",
+   "text": "Defeat {variant}",
+   "tier": 3,
+   "family": "named",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS"
+   },
+   "exclusive": [
+    54,
+    55
+   ],
+   "requires": {
+    "logic": "named",
+    "variants": [
+     {
+      "label": "Jophiel",
+      "boss": 533
+     },
+     {
+      "label": "Metatron",
+      "boss": 535
+     }
+    ],
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 21,
+   "name": "Clear Rank A in the Duel Battle",
+   "text": "Clear Rank A in the Duel Battle",
+   "tier": 3,
+   "family": "duel",
+   "kind": "mission_achieved",
+   "params": {
+    "type": "BT_DUEL_BATTLE_RANK_A",
+    "mission": 183
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "funcity",
+    "planet": "NEDE"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 22,
+   "name": "Fully clear Salva Mines",
+   "text": "Fully clear Salva Mines",
+   "tier": 3,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    37
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0005",
+    "boss": 191,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0005"
+  },
+  {
+   "id": 23,
+   "name": "Set foot on both Expel and Nede",
+   "text": "Set foot on both Expel and Nede",
+   "tier": 3,
+   "family": "planets",
+   "kind": "visited",
+   "params": {
+    "type": "PLANETS"
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "planets"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": {
+    "other_planet_open": 1
+   }
+  },
+  {
+   "id": 24,
+   "name": "Complete 3 guild missions",
+   "text": "Complete 3 guild missions",
+   "tier": 2,
+   "family": "guild",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_QUEST",
+    "mission": 216,
+    "threshold": 3
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 25,
+   "name": "Complete 8 guild missions",
+   "text": "Complete 8 guild missions",
+   "tier": 3,
+   "family": "guild",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_QUEST",
+    "mission": 216,
+    "threshold": 8
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 26,
+   "name": "Watch 3 Private Actions",
+   "text": "Watch 3 Private Actions",
+   "tier": 2,
+   "family": "pa",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_PA",
+    "mission": 219,
+    "threshold": 3
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 27,
+   "name": "Watch 8 Private Actions",
+   "text": "Watch 8 Private Actions",
+   "tier": 3,
+   "family": "pa",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_PA",
+    "mission": 219,
+    "threshold": 8
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 28,
+   "name": "Use an Item Creation skill 10 times",
+   "text": "Use {variant} 10 times",
+   "tier": 2,
+   "family": "ic",
+   "kind": "mission_count",
+   "params": {
+    "type": "IC_EXECUTION",
+    "threshold": 10
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier",
+    "variants": [
+     {
+      "label": "Art",
+      "mission": 23
+     },
+     {
+      "label": "Customize",
+      "mission": 24
+     },
+     {
+      "label": "Appraisal",
+      "mission": 25
+     },
+     {
+      "label": "Craft",
+      "mission": 26
+     },
+     {
+      "label": "Writing",
+      "mission": 27
+     },
+     {
+      "label": "Mixing",
+      "mission": 28
+     },
+     {
+      "label": "Cooking",
+      "mission": 29
+     },
+     {
+      "label": "Alchemy",
+      "mission": 30
+     }
+    ]
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 29,
+   "name": "Make 10 pieces of equipment with factors",
+   "text": "Make 10 pieces of equipment with factors",
+   "tier": 3,
+   "family": "ic",
+   "kind": "mission_count",
+   "params": {
+    "type": "IC_FACTOR",
+    "mission": 51,
+    "threshold": 10
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 30,
+   "name": "Catch a record-size fish",
+   "text": "Catch a record-size fish",
+   "tier": 2,
+   "family": "fishing",
+   "kind": "mission_count",
+   "params": {
+    "type": "SK_FISHING_RECORD",
+    "mission": 57,
+    "threshold": 1
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 31,
+   "name": "Compose a song with Music",
+   "text": "Compose a song with Music",
+   "tier": 2,
+   "family": "music",
+   "kind": "mission_count",
+   "params": {
+    "type": "SK_COMPOSITION",
+    "mission": 121,
+    "threshold": 1
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "tier"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 32,
+   "name": "Win a Bunny Race",
+   "text": "Win a Bunny Race",
+   "tier": 2,
+   "family": "bunny",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_BUNNY_RACE_WIN",
+    "mission": 254,
+    "threshold": 1
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "funcity",
+    "planet": "NEDE"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 33,
+   "name": "Score 10,000 in Cooking Master",
+   "text": "Score 10,000 in Cooking Master",
+   "tier": 2,
+   "family": "cooking",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_COOKING_MASTER_SCORE",
+    "mission": 248,
+    "threshold": 10000
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "funcity",
+    "planet": "NEDE"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 34,
+   "name": "Score 30,000 in Cooking Master",
+   "text": "Score 30,000 in Cooking Master",
+   "tier": 3,
+   "family": "cooking",
+   "kind": "mission_count",
+   "params": {
+    "type": "OT_COOKING_MASTER_SCORE",
+    "mission": 249,
+    "threshold": 30000
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "funcity",
+    "planet": "NEDE"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 35,
+   "name": "Conquer 3 arena Group Battles",
+   "text": "Conquer 3 arena Group Battles",
+   "tier": 2,
+   "family": "arena",
+   "kind": "mission_count",
+   "params": {
+    "type": "BT_CHALLENGE_BATTLE",
+    "mission": 186,
+    "threshold": 3
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "funcity",
+    "planet": "NEDE"
+   },
+   "no_progression": true,
+   "goal_only": null,
+   "tier_override": null
+  },
+  {
+   "id": 36,
+   "name": "Collect the four Orbs",
+   "text": "Collect the four Orbs",
+   "tier": 3,
+   "family": "orbs",
+   "kind": "items_held",
+   "params": {
+    "type": "ORBS",
+    "need": 4
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "orbs"
+   },
+   "no_progression": false,
+   "goal_only": "objectives",
+   "tier_override": null,
+   "group": "orbs"
+  },
+  {
+   "id": 37,
+   "name": "Defeat Allen Tucks",
+   "text": "Defeat Allen Tucks",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600191
+    ]
+   },
+   "exclusive": [
+    22
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 191,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:191",
+   "slot_only": true
+  },
+  {
+   "id": 38,
+   "name": "Defeat Snow Ogre",
+   "text": "Defeat Snow Ogre",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600194
+    ]
+   },
+   "exclusive": [
+    57
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 194,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:194",
+   "slot_only": true
+  },
+  {
+   "id": 39,
+   "name": "Defeat Azam Gille",
+   "text": "Defeat Azam Gille",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600195
+    ]
+   },
+   "exclusive": [
+    57
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 195,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:195",
+   "slot_only": true
+  },
+  {
+   "id": 40,
+   "name": "Defeat the Fire Lizards",
+   "text": "Defeat the Fire Lizards",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600196
+    ]
+   },
+   "exclusive": [
+    58
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 196,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:196",
+   "slot_only": true
+  },
+  {
+   "id": 41,
+   "name": "Defeat Nightmare",
+   "text": "Defeat Nightmare",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600197
+    ]
+   },
+   "exclusive": [
+    58
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 197,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:197",
+   "slot_only": true
+  },
+  {
+   "id": 42,
+   "name": "Defeat Zinae",
+   "text": "Defeat Zinae",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600199
+    ]
+   },
+   "exclusive": [
+    59
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 199,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:199",
+   "slot_only": true
+  },
+  {
+   "id": 43,
+   "name": "Defeat Visseya",
+   "text": "Defeat Visseya",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600209
+    ]
+   },
+   "exclusive": [
+    60
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 209,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:209",
+   "slot_only": true
+  },
+  {
+   "id": 44,
+   "name": "Defeat Halfynx",
+   "text": "Defeat Halfynx",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600210
+    ]
+   },
+   "exclusive": [
+    61
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 210,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:210",
+   "slot_only": true
+  },
+  {
+   "id": 45,
+   "name": "Defeat Ghost",
+   "text": "Defeat Ghost",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600211
+    ]
+   },
+   "exclusive": [
+    61
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 211,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:211",
+   "slot_only": true
+  },
+  {
+   "id": 46,
+   "name": "Defeat Cynne",
+   "text": "Defeat Cynne",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600519
+    ]
+   },
+   "exclusive": [
+    62
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 519,
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:519",
+   "slot_only": true
+  },
+  {
+   "id": 47,
+   "name": "Defeat Arachnovia",
+   "text": "Defeat Arachnovia",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600522
+    ]
+   },
+   "exclusive": [
+    17
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 522,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:522",
+   "slot_only": true
+  },
+  {
+   "id": 48,
+   "name": "Defeat Guard Hand",
+   "text": "Defeat Guard Hand",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600524
+    ]
+   },
+   "exclusive": [
+    64
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 524,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:524",
+   "slot_only": true
+  },
+  {
+   "id": 49,
+   "name": "Defeat the Guardian of the Field of Courage",
+   "text": "Defeat the Guardian of the Field of Courage",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600525
+    ]
+   },
+   "exclusive": [
+    66
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 525,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:525",
+   "slot_only": true
+  },
+  {
+   "id": 50,
+   "name": "Defeat the Guardian of the Field of Might",
+   "text": "Defeat the Guardian of the Field of Might",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600527
+    ]
+   },
+   "exclusive": [
+    65
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 527,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:527",
+   "slot_only": true
+  },
+  {
+   "id": 51,
+   "name": "Defeat Lavarre",
+   "text": "Defeat Lavarre",
+   "tier": 2,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600528
+    ]
+   },
+   "exclusive": [
+    67
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 528,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:528",
+   "slot_only": true
+  },
+  {
+   "id": 52,
+   "name": "Defeat Barchian",
+   "text": "Defeat Barchian",
+   "tier": 1,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600531
+    ]
+   },
+   "exclusive": [
+    63
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 531,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:531",
+   "slot_only": true
+  },
+  {
+   "id": 53,
+   "name": "Defeat Zaphkiel",
+   "text": "Defeat Zaphkiel",
+   "tier": 3,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600532
+    ]
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "boss",
+    "boss": 532,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:532",
+   "slot_only": true
+  },
+  {
+   "id": 54,
+   "name": "Defeat Jophiel",
+   "text": "Defeat Jophiel",
+   "tier": 3,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600533
+    ]
+   },
+   "exclusive": [
+    20
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 533,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:533",
+   "slot_only": true
+  },
+  {
+   "id": 55,
+   "name": "Defeat Metatron",
+   "text": "Defeat Metatron",
+   "tier": 3,
+   "family": "boss",
+   "kind": "locations_done",
+   "params": {
+    "type": "BOSS",
+    "locations": [
+     5600535
+    ]
+   },
+   "exclusive": [
+    20
+   ],
+   "requires": {
+    "logic": "boss",
+    "boss": 535,
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "boss:535",
+   "slot_only": true
+  },
+  {
+   "id": 56,
+   "name": "Fully clear Krosse Cave",
+   "text": "Fully clear Krosse Cave",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0008",
+    "bosses": [],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0008",
+   "slot_only": true
+  },
+  {
+   "id": 57,
+   "name": "Fully clear the Forest of Symbols",
+   "text": "Fully clear the Forest of Symbols",
+   "tier": 1,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    38,
+    39
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0011",
+    "bosses": [
+     194,
+     195
+    ],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0011",
+   "slot_only": true
+  },
+  {
+   "id": 58,
+   "name": "Fully clear the Mountain Palace",
+   "text": "Fully clear the Mountain Palace",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    40,
+    41
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0013",
+    "bosses": [
+     196,
+     197
+    ],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0013",
+   "slot_only": true
+  },
+  {
+   "id": 59,
+   "name": "Fully clear the Lasgus Mountains",
+   "text": "Fully clear the Lasgus Mountains",
+   "tier": 1,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    42
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0014",
+    "bosses": [
+     199
+    ],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0014",
+   "slot_only": true
+  },
+  {
+   "id": 60,
+   "name": "Fully clear the Sacred Grounds of Linga",
+   "text": "Fully clear the Sacred Grounds of Linga",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    43
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0020",
+    "bosses": [
+     209
+    ],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0020",
+   "slot_only": true
+  },
+  {
+   "id": 61,
+   "name": "Fully clear the Hoffman Ruins",
+   "text": "Fully clear the Hoffman Ruins",
+   "tier": 3,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    44,
+    45
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0022",
+    "bosses": [
+     210,
+     211
+    ],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0022",
+   "slot_only": true
+  },
+  {
+   "id": 62,
+   "name": "Fully clear the Eluria Tower",
+   "text": "Fully clear the Eluria Tower",
+   "tier": 3,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    46
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0027",
+    "bosses": [
+     519
+    ],
+    "planet": "EXPEL"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0027",
+   "slot_only": true
+  },
+  {
+   "id": 63,
+   "name": "Fully clear the Minae Cave",
+   "text": "Fully clear the Minae Cave",
+   "tier": 3,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    52
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0042",
+    "bosses": [
+     531
+    ],
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0042",
+   "slot_only": true
+  },
+  {
+   "id": 64,
+   "name": "Fully clear the Field of Wisdom",
+   "text": "Fully clear the Field of Wisdom",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    48
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0036",
+    "bosses": [
+     524
+    ],
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0036",
+   "slot_only": true
+  },
+  {
+   "id": 65,
+   "name": "Fully clear the Field of Might",
+   "text": "Fully clear the Field of Might",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    50
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0037",
+    "bosses": [
+     527
+    ],
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0037",
+   "slot_only": true
+  },
+  {
+   "id": 66,
+   "name": "Fully clear the Field of Courage",
+   "text": "Fully clear the Field of Courage",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    49
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0038",
+    "bosses": [
+     525
+    ],
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0038",
+   "slot_only": true
+  },
+  {
+   "id": 67,
+   "name": "Fully clear the Field of Love",
+   "text": "Fully clear the Field of Love",
+   "tier": 2,
+   "family": "dungeon",
+   "kind": "locations_done",
+   "params": {
+    "type": "DUNGEON_CLEAR"
+   },
+   "exclusive": [
+    51
+   ],
+   "requires": {
+    "logic": "dungeon",
+    "area": "MF_0039",
+    "bosses": [
+     528
+    ],
+    "planet": "NEDE"
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "dungeon:MF_0039",
+   "slot_only": true
+  },
+  {
+   "id": 68,
+   "name": "Recruit 2 characters",
+   "text": "Recruit 2 characters",
+   "tier": 1,
+   "family": "party",
+   "kind": "items_held",
+   "params": {
+    "type": "CHARACTERS",
+    "need": 2
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "party",
+    "n": 2
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "party",
+   "slot_only": true
+  },
+  {
+   "id": 69,
+   "name": "Recruit 3 characters",
+   "text": "Recruit 3 characters",
+   "tier": 2,
+   "family": "party",
+   "kind": "items_held",
+   "params": {
+    "type": "CHARACTERS",
+    "need": 3
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "party",
+    "n": 3
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "party",
+   "slot_only": true
+  },
+  {
+   "id": 70,
+   "name": "Recruit 4 characters",
+   "text": "Recruit 4 characters",
+   "tier": 3,
+   "family": "party",
+   "kind": "items_held",
+   "params": {
+    "type": "CHARACTERS",
+    "need": 4
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "party",
+    "n": 4
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "party",
+   "slot_only": true
+  },
+  {
+   "id": 71,
+   "name": "Collect 2 Orbs",
+   "text": "Collect 2 Orbs",
+   "tier": 2,
+   "family": "collection",
+   "kind": "items_held",
+   "params": {
+    "type": "ORBS",
+    "need": 2
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "orbs",
+    "n": 2
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "orbs",
+   "slot_only": true
+  },
+  {
+   "id": 72,
+   "name": "Collect 3 Orbs",
+   "text": "Collect 3 Orbs",
+   "tier": 3,
+   "family": "collection",
+   "kind": "items_held",
+   "params": {
+    "type": "ORBS",
+    "need": 3
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "orbs",
+    "n": 3
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "orbs",
+   "slot_only": true
+  },
+  {
+   "id": 73,
+   "name": "Hold 7 area keys",
+   "text": "Hold 7 area keys",
+   "tier": 2,
+   "family": "collection",
+   "kind": "items_held",
+   "params": {
+    "type": "AREA_KEYS",
+    "need": 7
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "keys",
+    "n": 7
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "keys",
+   "slot_only": true
+  },
+  {
+   "id": 74,
+   "name": "Hold 11 area keys",
+   "text": "Hold 11 area keys",
+   "tier": 3,
+   "family": "collection",
+   "kind": "items_held",
+   "params": {
+    "type": "AREA_KEYS",
+    "need": 11
+   },
+   "exclusive": [],
+   "requires": {
+    "logic": "keys",
+    "n": 11
+   },
+   "no_progression": false,
+   "goal_only": null,
+   "tier_override": null,
+   "group": "keys",
+   "slot_only": true
+  }
+ ],
+ "categories": [
+  {
+   "name": "Random",
+   "description": "Any objective; the tier is rolled from the Objective Tier Mix weights.",
+   "tiers": null,
+   "families": null,
+   "weighted": true
+  },
+  {
+   "name": "Random Easy",
+   "description": "Any Easy objective.",
+   "tiers": [
+    1
+   ],
+   "families": null,
+   "weighted": false
+  },
+  {
+   "name": "Random Medium",
+   "description": "Any Medium objective.",
+   "tiers": [
+    2
+   ],
+   "families": null,
+   "weighted": false
+  },
+  {
+   "name": "Random Hard",
+   "description": "Any Hard objective.",
+   "tiers": [
+    3
+   ],
+   "families": null,
+   "weighted": false
+  },
+  {
+   "name": "Random Boss",
+   "description": "Defeat a named boss (a boss spot).",
+   "tiers": null,
+   "families": [
+    "boss",
+    "named"
+   ],
+   "weighted": false
+  },
+  {
+   "name": "Random Dungeon Clear",
+   "description": "Fully clear a dungeon: every chest and its boss.",
+   "tiers": null,
+   "families": [
+    "dungeon"
+   ],
+   "weighted": false
+  },
+  {
+   "name": "Random Combat",
+   "description": "Battle counters: battles, enemies, leaders, shield breaks, status ailments.",
+   "tiers": null,
+   "families": [
+    "battle",
+    "shields",
+    "leaders",
+    "status"
+   ],
+   "weighted": false
+  },
+  {
+   "name": "Random Exploration",
+   "description": "Towns, Fields, planets, chests and boss spots.",
+   "tiers": null,
+   "families": [
+    "towns",
+    "fields",
+    "planets",
+    "chests",
+    "spots"
+   ],
+   "weighted": false
+  },
+  {
+   "name": "Random Collection",
+   "description": "Area keys, Orbs, characters and the encyclopedias.",
+   "tiers": null,
+   "families": [
+    "keys",
+    "orbs",
+    "collection",
+    "party",
+    "book"
+   ],
+   "weighted": false
+  },
+  {
+   "name": "Random Side Content",
+   "description": "Guild missions, Private Actions, Item Creation, fishing, Music, Bunny Race, Cooking Master, the arena and the Duel Battle.",
+   "tiers": null,
+   "families": [
+    "guild",
+    "pa",
+    "ic",
+    "fishing",
+    "music",
+    "bunny",
+    "cooking",
+    "arena",
+    "duel"
+   ],
+   "weighted": false
+  }
+ ]
+}

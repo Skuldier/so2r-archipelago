@@ -1,0 +1,1468 @@
+[
+  {
+    "id": 1,
+    "name": "Magic Canvas",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 2,
+    "name": "Primavera",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 4,
+    "name": "Starry Night",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 7,
+    "name": "Portrait B",
+    "category": "OTHER",
+    "rarity": "N"
+  },
+  {
+    "id": 21,
+    "name": "Revival Card",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 24,
+    "name": "Experience Card",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 27,
+    "name": "Silence Card",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 28,
+    "name": "Hexagram Card",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 34,
+    "name": "Angel Statuette",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 36,
+    "name": "Goddess Statuette",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 38,
+    "name": "Warrior Idol",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 39,
+    "name": "Veda Idol",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 42,
+    "name": "Mirror of Knowledge",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 43,
+    "name": "Magic Clay",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 44,
+    "name": "Feather Pen",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 53,
+    "name": "Conductor Baton",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 54,
+    "name": "Spectacles",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 56,
+    "name": "Moonlight",
+    "category": "ACCESSORY",
+    "rarity": "SR"
+  },
+  {
+    "id": 71,
+    "name": "Amulet of Freedom",
+    "category": "ACCESSORY",
+    "rarity": "N"
+  },
+  {
+    "id": 72,
+    "name": "Amulet of Flexibility",
+    "category": "ACCESSORY",
+    "rarity": "N"
+  },
+  {
+    "id": 73,
+    "name": "Purple Amulet",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 76,
+    "name": "Chain of Might",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 79,
+    "name": "Ruby Pendant",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 80,
+    "name": "Star Necklace",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 85,
+    "name": "Talisman",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 86,
+    "name": "Lunar Talisman",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 88,
+    "name": "Princess Ring",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 89,
+    "name": "Ring of Healing",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 95,
+    "name": "Ring of Might",
+    "category": "ACCESSORY",
+    "rarity": "SSR"
+  },
+  {
+    "id": 104,
+    "name": "Ring of Sadness",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 108,
+    "name": "Mallet Charm",
+    "category": "ACCESSORY",
+    "rarity": "SSR"
+  },
+  {
+    "id": 109,
+    "name": "Ring of Lightspeed",
+    "category": "ACCESSORY",
+    "rarity": "SSR"
+  },
+  {
+    "id": 110,
+    "name": "Meteor Ring",
+    "category": "ACCESSORY",
+    "rarity": "SR"
+  },
+  {
+    "id": 116,
+    "name": "Flare Ring",
+    "category": "ACCESSORY",
+    "rarity": "N"
+  },
+  {
+    "id": 123,
+    "name": "Thunder Ring",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 124,
+    "name": "Faerie Ring",
+    "category": "ACCESSORY",
+    "rarity": "SR"
+  },
+  {
+    "id": 125,
+    "name": "Onyx Earring",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 126,
+    "name": "Gold Earring",
+    "category": "ACCESSORY",
+    "rarity": "N"
+  },
+  {
+    "id": 133,
+    "name": "Gale Earring",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 136,
+    "name": "Star Earring",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 141,
+    "name": "Gold Cross",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 144,
+    "name": "Light Cross",
+    "category": "ACCESSORY",
+    "rarity": "SR"
+  },
+  {
+    "id": 145,
+    "name": "Shadow Cross",
+    "category": "ACCESSORY",
+    "rarity": "SSR"
+  },
+  {
+    "id": 149,
+    "name": "Anklet",
+    "category": "ACCESSORY",
+    "rarity": "N"
+  },
+  {
+    "id": 152,
+    "name": "Dream Bracelet",
+    "category": "ACCESSORY",
+    "rarity": "SR"
+  },
+  {
+    "id": 157,
+    "name": "Foot Insignia",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 161,
+    "name": "Dream Crown",
+    "category": "HELMET",
+    "rarity": "SR"
+  },
+  {
+    "id": 164,
+    "name": "Fountain Pen",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 170,
+    "name": "Engineer's Handbook",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 173,
+    "name": "The Bestiary",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 174,
+    "name": "Walls of the Soul",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 175,
+    "name": "Life in Nature",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 182,
+    "name": "Hermetic Philosophy",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 183,
+    "name": "Friends of the Woods",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 186,
+    "name": "Scroll of Power",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 187,
+    "name": "Death of Originality",
+    "category": "OTHER",
+    "rarity": "R",
+    "skill_book": true
+  },
+  {
+    "id": 220,
+    "name": "Mandrake",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 221,
+    "name": "Rose Hip",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 222,
+    "name": "Artemis Leaf",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 223,
+    "name": "Wolfsbane",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 224,
+    "name": "Lavender",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 225,
+    "name": "Athelas",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 227,
+    "name": "Strength Bottle",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 230,
+    "name": "Smelling Salts",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 238,
+    "name": "Faerie Elixir",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 240,
+    "name": "Potion of Merlin",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 243,
+    "name": "Resurrection Mist",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 248,
+    "name": "Potion of Epiphany",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 251,
+    "name": "Sour Syrup",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 254,
+    "name": "Fruit Syrup",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 255,
+    "name": "Refreshing Syrup",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 256,
+    "name": "Hot Syrup",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 257,
+    "name": "Mixed Syrup",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 258,
+    "name": "Antidote",
+    "category": "BATTLE",
+    "rarity": "N"
+  },
+  {
+    "id": 260,
+    "name": "Wonder Drug",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 266,
+    "name": "Ointment of Veda",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 269,
+    "name": "Aphrodisiac",
+    "category": "OTHER",
+    "rarity": "SR"
+  },
+  {
+    "id": 273,
+    "name": "Faerie Mist",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 275,
+    "name": "Holy Mist",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 277,
+    "name": "Resurrection Elixir",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 278,
+    "name": "Medicine Bottle",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 279,
+    "name": "Seafood",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 281,
+    "name": "Grains",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 282,
+    "name": "Meat",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 283,
+    "name": "Vegetables",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 284,
+    "name": "Eggs and Dairy",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 286,
+    "name": "?MACHINE (#286)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 289,
+    "name": "Flawed Orb",
+    "category": "MATERIAL",
+    "rarity": "SSR"
+  },
+  {
+    "id": 300,
+    "name": "?MACHINE (#300)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 321,
+    "name": "tri-Emblum",
+    "category": "ACCESSORY",
+    "rarity": "SR"
+  },
+  {
+    "id": 341,
+    "name": "Amoeba Soup",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 350,
+    "name": "Sunset Island",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 351,
+    "name": "Crazy Cow",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 363,
+    "name": "Ooze Cocktail",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 364,
+    "name": "Seraphic Garb",
+    "category": "ARMOR",
+    "rarity": "SSR"
+  },
+  {
+    "id": 367,
+    "name": "Mindhealer",
+    "category": "WAND",
+    "rarity": "SSR"
+  },
+  {
+    "id": 385,
+    "name": "Archangel's Bracelet",
+    "category": "ACCESSORY",
+    "rarity": "SSR"
+  },
+  {
+    "id": 392,
+    "name": "Phantom Slayer",
+    "category": "KNUCKLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 393,
+    "name": "Bunny Shoes",
+    "category": "GREEVE",
+    "rarity": "SR"
+  },
+  {
+    "id": 396,
+    "name": "Scumbag Slayer",
+    "category": "SWORD",
+    "rarity": "SR"
+  },
+  {
+    "id": 404,
+    "name": "Fried Egg",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 405,
+    "name": "Slimy Gelatin",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 407,
+    "name": "Yogurt",
+    "category": "COOKING",
+    "rarity": "R"
+  },
+  {
+    "id": 417,
+    "name": "Nectar",
+    "category": "COOKING",
+    "rarity": "SR"
+  },
+  {
+    "id": 418,
+    "name": "Pet Food",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 419,
+    "name": "Iron",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 421,
+    "name": "Silver",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 423,
+    "name": "Orichalcum",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 424,
+    "name": "Meteorite",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 425,
+    "name": "Mithril",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 426,
+    "name": "Damascus",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 427,
+    "name": "Rune Metal",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 432,
+    "name": "Star Ruby",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 433,
+    "name": "Crystal",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 434,
+    "name": "Philosopher's Stone",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 435,
+    "name": "Diamond",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 436,
+    "name": "Rainbow Diamond",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 440,
+    "name": "Magic Film",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 449,
+    "name": "Flare Bomb",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 455,
+    "name": "Nuclear Bomb",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 456,
+    "name": "Mechanic's Toolbox",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 470,
+    "name": "Smith's Hammer",
+    "category": "MATERIAL",
+    "rarity": "N"
+  },
+  {
+    "id": 491,
+    "name": "Sinclair",
+    "category": "SWORD",
+    "rarity": "N"
+  },
+  {
+    "id": 493,
+    "name": "Walloon Sword",
+    "category": "SWORD",
+    "rarity": "N"
+  },
+  {
+    "id": 499,
+    "name": "Searing Sword",
+    "category": "SWORD",
+    "rarity": "SR"
+  },
+  {
+    "id": 501,
+    "name": "Sword of Marvels",
+    "category": "SWORD",
+    "rarity": "SR"
+  },
+  {
+    "id": 503,
+    "name": "Saad Blade",
+    "category": "SWORD",
+    "rarity": "SR"
+  },
+  {
+    "id": 519,
+    "name": "Bouro",
+    "category": "SWORD",
+    "rarity": "SSR"
+  },
+  {
+    "id": 524,
+    "name": "Swords of Deflection",
+    "category": "TWIN_SWORD",
+    "rarity": "N"
+  },
+  {
+    "id": 527,
+    "name": "Twin Splicers",
+    "category": "TWIN_SWORD",
+    "rarity": "R"
+  },
+  {
+    "id": 531,
+    "name": "Luminous Slicers",
+    "category": "TWIN_SWORD",
+    "rarity": "SR"
+  },
+  {
+    "id": 534,
+    "name": "Lotus Eaters",
+    "category": "TWIN_SWORD",
+    "rarity": "SR"
+  },
+  {
+    "id": 535,
+    "name": "Gemini",
+    "category": "TWIN_SWORD",
+    "rarity": "SSR"
+  },
+  {
+    "id": 548,
+    "name": "Knuckles of the Moon",
+    "category": "KNUCKLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 553,
+    "name": "Fists of the Giant",
+    "category": "KNUCKLE",
+    "rarity": "R"
+  },
+  {
+    "id": 556,
+    "name": "Fists of the Titan",
+    "category": "KNUCKLE",
+    "rarity": "SSR"
+  },
+  {
+    "id": 561,
+    "name": "Serpent's Tooth",
+    "category": "KNUCKLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 572,
+    "name": "Holy Rod",
+    "category": "WAND",
+    "rarity": "SR"
+  },
+  {
+    "id": 579,
+    "name": "Thunderclap Rod",
+    "category": "WAND",
+    "rarity": "R"
+  },
+  {
+    "id": 584,
+    "name": "White Clip",
+    "category": "GUN_AND_DISK",
+    "rarity": "R"
+  },
+  {
+    "id": 588,
+    "name": "Alpha Clip",
+    "category": "GUN_AND_DISK",
+    "rarity": "SR"
+  },
+  {
+    "id": 591,
+    "name": "Beta Clip",
+    "category": "GUN_AND_DISK",
+    "rarity": "SR"
+  },
+  {
+    "id": 602,
+    "name": "Majestic Puncher",
+    "category": "PUNCH",
+    "rarity": "SR"
+  },
+  {
+    "id": 605,
+    "name": "Atomic Puncher",
+    "category": "PUNCH",
+    "rarity": "SR"
+  },
+  {
+    "id": 612,
+    "name": "Splinter",
+    "category": "WHIP",
+    "rarity": "R"
+  },
+  {
+    "id": 614,
+    "name": "Twin Tails",
+    "category": "WHIP",
+    "rarity": "SR"
+  },
+  {
+    "id": 620,
+    "name": "Spark Whip",
+    "category": "WHIP",
+    "rarity": "SR"
+  },
+  {
+    "id": 630,
+    "name": "Theory of Symbology",
+    "category": "BOOK",
+    "rarity": "R"
+  },
+  {
+    "id": 633,
+    "name": "Symbology Dictionary",
+    "category": "BOOK",
+    "rarity": "SR"
+  },
+  {
+    "id": 636,
+    "name": "Encyclopedia",
+    "category": "BOOK",
+    "rarity": "R"
+  },
+  {
+    "id": 648,
+    "name": "Lightning Gun",
+    "category": "STUNGUN",
+    "rarity": "SR"
+  },
+  {
+    "id": 651,
+    "name": "Gigawatt Stunner",
+    "category": "STUNGUN",
+    "rarity": "SR"
+  },
+  {
+    "id": 655,
+    "name": "Leather Helmet",
+    "category": "HELMET",
+    "rarity": "N"
+  },
+  {
+    "id": 660,
+    "name": "Open Helmet",
+    "category": "HELMET",
+    "rarity": "N"
+  },
+  {
+    "id": 663,
+    "name": "Plate Helmet",
+    "category": "HELMET",
+    "rarity": "SR"
+  },
+  {
+    "id": 665,
+    "name": "Steel Helmet",
+    "category": "HELMET",
+    "rarity": "SR"
+  },
+  {
+    "id": 666,
+    "name": "Tiara of the Arc",
+    "category": "HELMET",
+    "rarity": "SSR"
+  },
+  {
+    "id": 667,
+    "name": "Wizard's Cap",
+    "category": "HELMET",
+    "rarity": "R"
+  },
+  {
+    "id": 668,
+    "name": "Mithril Helmet",
+    "category": "HELMET",
+    "rarity": "SSR"
+  },
+  {
+    "id": 670,
+    "name": "Dueling Helmet",
+    "category": "HELMET",
+    "rarity": "SSR"
+  },
+  {
+    "id": 674,
+    "name": "Dragon's Ribbon",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 677,
+    "name": "Leather Armor",
+    "category": "ARMOR",
+    "rarity": "N"
+  },
+  {
+    "id": 681,
+    "name": "Robe",
+    "category": "ARMOR",
+    "rarity": "N"
+  },
+  {
+    "id": 682,
+    "name": "Ring Mail",
+    "category": "ARMOR",
+    "rarity": "N"
+  },
+  {
+    "id": 683,
+    "name": "Silk Robe",
+    "category": "ARMOR",
+    "rarity": "N"
+  },
+  {
+    "id": 684,
+    "name": "Brigandine",
+    "category": "ARMOR",
+    "rarity": "N"
+  },
+  {
+    "id": 685,
+    "name": "Amber Robe",
+    "category": "ARMOR",
+    "rarity": "N"
+  },
+  {
+    "id": 689,
+    "name": "Eagle's Shawl",
+    "category": "ARMOR",
+    "rarity": "SR"
+  },
+  {
+    "id": 690,
+    "name": "Robe of Deception",
+    "category": "ARMOR",
+    "rarity": "SR"
+  },
+  {
+    "id": 695,
+    "name": "Armor of the Arc",
+    "category": "ARMOR",
+    "rarity": "SR"
+  },
+  {
+    "id": 697,
+    "name": "Battle Suit",
+    "category": "ARMOR",
+    "rarity": "SSR"
+  },
+  {
+    "id": 701,
+    "name": "Mithril Mesh",
+    "category": "ARMOR",
+    "rarity": "SR"
+  },
+  {
+    "id": 703,
+    "name": "Sylvan Mail",
+    "category": "ARMOR",
+    "rarity": "SR"
+  },
+  {
+    "id": 704,
+    "name": "Valiant Mail",
+    "category": "ARMOR",
+    "rarity": "SSR"
+  },
+  {
+    "id": 705,
+    "name": "Dueling Suit",
+    "category": "ARMOR",
+    "rarity": "SSR"
+  },
+  {
+    "id": 706,
+    "name": "Reflecting Plate",
+    "category": "ARMOR",
+    "rarity": "SSR"
+  },
+  {
+    "id": 709,
+    "name": "Wooden Shield",
+    "category": "SHIELD",
+    "rarity": "N"
+  },
+  {
+    "id": 711,
+    "name": "Knight's Shield",
+    "category": "SHIELD",
+    "rarity": "R"
+  },
+  {
+    "id": 714,
+    "name": "Buckler",
+    "category": "SHIELD",
+    "rarity": "N"
+  },
+  {
+    "id": 715,
+    "name": "Fine Shield",
+    "category": "SHIELD",
+    "rarity": "R"
+  },
+  {
+    "id": 717,
+    "name": "Crested Shield",
+    "category": "SHIELD",
+    "rarity": "R"
+  },
+  {
+    "id": 721,
+    "name": "Shield of the Arc",
+    "category": "SHIELD",
+    "rarity": "SR"
+  },
+  {
+    "id": 723,
+    "name": "Mithril Shield",
+    "category": "SHIELD",
+    "rarity": "SR"
+  },
+  {
+    "id": 724,
+    "name": "Valiant Shield",
+    "category": "SHIELD",
+    "rarity": "SSR"
+  },
+  {
+    "id": 725,
+    "name": "Valkyrie's Bracelet",
+    "category": "SHIELD",
+    "rarity": "SSR"
+  },
+  {
+    "id": 727,
+    "name": "Shield of Athena",
+    "category": "SHIELD",
+    "rarity": "SR"
+  },
+  {
+    "id": 735,
+    "name": "Leather Boots",
+    "category": "GREEVE",
+    "rarity": "R"
+  },
+  {
+    "id": 739,
+    "name": "Silver Greaves",
+    "category": "GREEVE",
+    "rarity": "SR"
+  },
+  {
+    "id": 744,
+    "name": "Valkyrie's Boots",
+    "category": "GREEVE",
+    "rarity": "SSR"
+  },
+  {
+    "id": 745,
+    "name": "Safety Shoes",
+    "category": "GREEVE",
+    "rarity": "R"
+  },
+  {
+    "id": 746,
+    "name": "Rune Shoes",
+    "category": "GREEVE",
+    "rarity": "SR"
+  },
+  {
+    "id": 747,
+    "name": "Mithril Greaves",
+    "category": "GREEVE",
+    "rarity": "SR"
+  },
+  {
+    "id": 749,
+    "name": "Valiant Boots",
+    "category": "GREEVE",
+    "rarity": "SSR"
+  },
+  {
+    "id": 750,
+    "name": "Sylvan Boots",
+    "category": "GREEVE",
+    "rarity": "SSR"
+  },
+  {
+    "id": 754,
+    "name": "Cinderella Glass",
+    "category": "OTHER",
+    "rarity": "R"
+  },
+  {
+    "id": 756,
+    "name": "Blackberries",
+    "category": "BATTLE",
+    "rarity": "N"
+  },
+  {
+    "id": 757,
+    "name": "Blueberries",
+    "category": "BATTLE",
+    "rarity": "N"
+  },
+  {
+    "id": 758,
+    "name": "Strawberry Jam",
+    "category": "COOKING",
+    "rarity": "N"
+  },
+  {
+    "id": 772,
+    "name": "Pixie's Bracelet",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 778,
+    "name": "?HERB (#778)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 782,
+    "name": "Organic Vegetables",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 783,
+    "name": "Sirloin",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 785,
+    "name": "Marenne Oysters",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 802,
+    "name": "Legendary Otoro",
+    "category": "COOKING",
+    "rarity": "SR"
+  },
+  {
+    "id": 811,
+    "name": "Luscious Gratin",
+    "category": "COOKING",
+    "rarity": "SR"
+  },
+  {
+    "id": 827,
+    "name": "?MINERAL (#827)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 828,
+    "name": "?MINERAL (#828)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 829,
+    "name": "?MINERAL (#829)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 834,
+    "name": "?WEAPON (#834)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 835,
+    "name": "?WEAPON (#835)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 844,
+    "name": "?WEAPON (#844)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 845,
+    "name": "?WEAPON (#845)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 849,
+    "name": "?WEAPON (#849)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 850,
+    "name": "?WEAPON (#850)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 851,
+    "name": "?WEAPON (#851)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 860,
+    "name": "?WEAPON (#860)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 865,
+    "name": "?WEAPON (#865)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 866,
+    "name": "?WEAPON (#866)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 871,
+    "name": "?WEAPON (#871)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 872,
+    "name": "?WEAPON (#872)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 873,
+    "name": "?WEAPON (#873)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 894,
+    "name": "?ARMOR (#894)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 899,
+    "name": "?ARMOR (#899)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 915,
+    "name": "?JEWELRY (#915)",
+    "category": "UNIDENTIFIED",
+    "rarity": "N"
+  },
+  {
+    "id": 1095,
+    "name": "Fuzzy Handy Stick",
+    "category": "ROD",
+    "rarity": "N"
+  },
+  {
+    "id": 1096,
+    "name": "Playful Handy Stick",
+    "category": "ROD",
+    "rarity": "R"
+  },
+  {
+    "id": 1101,
+    "name": "Furious Handy Stick",
+    "category": "ROD",
+    "rarity": "SR"
+  },
+  {
+    "id": 1129,
+    "name": "Silver Charm",
+    "category": "ACCESSORY",
+    "rarity": "R"
+  },
+  {
+    "id": 1139,
+    "name": "Potion of Might",
+    "category": "BATTLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 1140,
+    "name": "Sweet Potion",
+    "category": "BATTLE",
+    "rarity": "R"
+  },
+  {
+    "id": 1353,
+    "name": "Smooth Crystal",
+    "category": "MATERIAL",
+    "rarity": "SR"
+  },
+  {
+    "id": 1590,
+    "name": "Re-Creation Gem",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1601,
+    "name": "Formation Manual \"Flee\"",
+    "category": "VALUABLE",
+    "rarity": "SR"
+  },
+  {
+    "id": 1607,
+    "name": "Blue Talisman Kit",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1614,
+    "name": "Shield of Athena Kit",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1615,
+    "name": "Dueling Suit Kit",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1624,
+    "name": "X Clip Kit",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1627,
+    "name": "Angel Statuette Kit",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1629,
+    "name": "Starry Night Kit",
+    "category": "MATERIAL",
+    "rarity": "R"
+  },
+  {
+    "id": 1635,
+    "name": "Shrimp",
+    "category": "FISH",
+    "rarity": "R"
+  },
+  {
+    "id": 1700,
+    "name": "Fishy Fragrance",
+    "category": "OTHER",
+    "rarity": "R"
+  },
+  {
+    "id": 1725,
+    "name": "Heart of Hearts",
+    "category": "KNUCKLE",
+    "rarity": "SSR"
+  },
+  {
+    "id": 1741,
+    "name": "Formation Manual \"Wealth\"",
+    "category": "VALUABLE",
+    "rarity": "SR"
+  }
+]
